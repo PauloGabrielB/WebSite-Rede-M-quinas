@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../img/logo.png';
+import logo from '../img/logorm.png';
 import menu from '../img/menu_white_36dp.svg';
 import closeMenu from '../img/close_white_36dp.svg';
 
@@ -22,9 +22,11 @@ export default function Header() {
                 <div className="nav-list">
                     <ul className={isMenuOpen ? 'nav-list-open' : 'nav-list-closed'}>
                         <li className='nav-item'><a className='nav-link' href="#home">Home</a></li>
-                        <li className='nav-item'><a className='nav-link' href="#sobre">Sobre</a></li>
                         <li className='nav-item'><a className='nav-link' href="#equipamentos">Equipamentos</a></li>
+                        <li className='nav-item'><a className='nav-link' href="#sobre">Sobre</a></li>
                         <li className='nav-item'><a className='nav-link' href="#contato">Contato</a></li>
+                        <li className='nav-item'><a className='nav-link' href="#contato">Trabalhe Conosco</a></li>
+                        <li className='nav-item'><a className='nav-link' href="#contato">SAC</a></li>
                     </ul>
                 </div>
 

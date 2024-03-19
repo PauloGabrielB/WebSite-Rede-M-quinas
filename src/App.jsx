@@ -1,11 +1,12 @@
 import './App.css'
-import Header from './Components/Header'
+import Home from './pages/page01/Home'
+
 
 function App() {
 
   return (
     <>
-     <Header />
+     <Home />
     </>
   )
 }
