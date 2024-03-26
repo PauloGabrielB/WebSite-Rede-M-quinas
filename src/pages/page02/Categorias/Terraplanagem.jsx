@@ -7,11 +7,12 @@ import img1 from './img/img1.jpg'
 import { Link } from 'react-router-dom';
 
 // Imagem dos Produtos
-import prod10 from './img/prod10.jpg'
-import prod11 from './img/prod11.jpg'
-import prod12 from './img/prod12.png'
-import prod13 from './img/prod13.png'
-import prod14 from './img/prod14.jpg'
+import prod66 from './img/prod66.png'
+import prod67 from './img/prod67.png'
+import prod68 from './img/prod68.jpg'
+
+
+
 
 const contentStyle = {
     margin: 0,
@@ -22,7 +23,7 @@ const contentStyle = {
     background: '#364d79',
   };
 
-export default function Betoneira() {
+export default function Terraplanagem() {
 
     const onChange = (currentSlide) => {
         console.log(currentSlide);
@@ -58,7 +59,7 @@ export default function Betoneira() {
         </div>
       </Carousel>
 
-        <section className="hero">
+        <section className="hero2">
 
         <div className="search-container">
             <h1>Buscar Equipamento</h1>
@@ -123,32 +124,22 @@ export default function Betoneira() {
             
         </div>
         <div className="produtos">
-          <div className="line1">
-            <div className="divprod10">
-                <img src={prod10} alt="" />
-                <button>Betoneira Proffisional</button>
-            </div>
-            <div className="divprod11">
-                <img src={prod11} alt="" />
-                <button>Betoneira Proffisional</button>
-            </div>
-            <div className="divprod12">
-                <img src={prod12} alt="" />
-                <button>Betoneira Proffisional</button>
-            </div>
-            <div className="divprod13">
-                <img src={prod13} alt="" />
-                <button>Betoneira Proffisional</button>
-            </div>            
-          </div>
 
-          <div className="line2">
-          <div className="divprod14">
-                <img src={prod14} alt="" />
-                <button>Betoneira Proffisional</button>
-            </div>    
-          </div>
-          
+         <div className="line12">
+            <div className="divprod66">
+                <img src={prod66} alt="" />
+                <button>Minicarregadeira (BobCat)</button>
+            </div>
+            <div className="divprod67">
+                <img src={prod67} alt="" />
+                <button>Retroescavadeira</button>
+            </div>
+            <div className="divprod68">
+                <img src={prod68} alt="" />
+                <button>Dumper</button>
+            </div>
+         </div>
+
         </div>
         </div>
 

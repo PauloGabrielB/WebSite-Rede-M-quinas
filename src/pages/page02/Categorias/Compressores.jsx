@@ -90,15 +90,34 @@ export default function Compressores() {
             <Link to={'/Container'}>
                 <li className='category-item' ><a href="">Container</a></li>
             </Link>
-            <li className='category-item' ><a href="">Diversos</a></li>
-            <li className='category-item' ><a href="">Escoramento</a></li>
-            <li className='category-item' ><a href="">Ferramentas Elétricas</a></li>
-            <li className='category-item' ><a href="">Geradores</a></li>
-            <li className='category-item' ><a href="">Máquinas</a></li>
-            <li className='category-item' ><a href="">Movimentação de Cargas</a></li>
-            <li className='category-item' ><a href="">Plataformas Aéreas</a></li>
-            <li className='category-item' ><a href="">Terra Planagem</a></li>
-            <li className='category-item' ><a href="">Torres de Iluminação</a></li>
+            <Link to={'/Diversos'}>
+                <li className='category-item' ><a href="">Diversos</a></li>
+            </Link>
+            <Link to={'/Escoramento'}>
+                <li className='category-item' ><a href="">Escoramento</a></li>
+            </Link>
+            <Link to={'/Ferramentas'}>
+                <li className='category-item' ><a href="">Ferramentas Elétricas</a></li>
+            </Link>
+            <Link to={'/Geradores'}>
+               <li className='category-item' ><a href="">Geradores</a></li> 
+            </Link>
+            <Link to={'/Maquinas'}>
+                <li className='category-item' ><a href="">Máquinas</a></li>
+            </Link>
+            <Link to={'/Cargas'}>
+                <li className='category-item' ><a href="">Movimentação de Cargas</a></li>
+            </Link>
+            <Link to={'/Plataformas'}>
+                <li className='category-item' ><a href="">Plataformas Aéreas</a></li>
+            </Link>
+            <Link to={'/Terraplanagem'}>
+                <li className='category-item' ><a href="">Terra Planagem</a></li>
+            </Link>
+            <Link to={'/Torre'}>
+                <li className='category-item' ><a href="">Torres de Iluminação</a></li>
+            </Link>
+            
             </ul>
             </div>
             

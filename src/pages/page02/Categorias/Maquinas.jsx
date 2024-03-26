@@ -7,11 +7,17 @@ import img1 from './img/img1.jpg'
 import { Link } from 'react-router-dom';
 
 // Imagem dos Produtos
-import prod10 from './img/prod10.jpg'
-import prod11 from './img/prod11.jpg'
-import prod12 from './img/prod12.png'
-import prod13 from './img/prod13.png'
-import prod14 from './img/prod14.jpg'
+import prod52 from './img/prod52.png'
+import prod53 from './img/prod53.jpg'
+import prod54 from './img/prod54.png'
+import prod55 from './img/prod55.jpg'
+import prod56 from './img/prod56.png'
+import prod57 from './img/prod57.jpg'
+import prod58 from './img/prod58.png'
+import prod59 from './img/prod59.jpg'
+import prod60 from './img/prod60.jpg'
+
+
 
 const contentStyle = {
     margin: 0,
@@ -22,7 +28,7 @@ const contentStyle = {
     background: '#364d79',
   };
 
-export default function Betoneira() {
+export default function Maquinas() {
 
     const onChange = (currentSlide) => {
         console.log(currentSlide);
@@ -58,7 +64,7 @@ export default function Betoneira() {
         </div>
       </Carousel>
 
-        <section className="hero">
+        <section className="hero2">
 
         <div className="search-container">
             <h1>Buscar Equipamento</h1>
@@ -123,32 +129,52 @@ export default function Betoneira() {
             
         </div>
         <div className="produtos">
-          <div className="line1">
-            <div className="divprod10">
-                <img src={prod10} alt="" />
-                <button>Betoneira Proffisional</button>
-            </div>
-            <div className="divprod11">
-                <img src={prod11} alt="" />
-                <button>Betoneira Proffisional</button>
-            </div>
-            <div className="divprod12">
-                <img src={prod12} alt="" />
-                <button>Betoneira Proffisional</button>
-            </div>
-            <div className="divprod13">
-                <img src={prod13} alt="" />
-                <button>Betoneira Proffisional</button>
-            </div>            
-          </div>
 
-          <div className="line2">
-          <div className="divprod14">
-                <img src={prod14} alt="" />
-                <button>Betoneira Proffisional</button>
-            </div>    
-          </div>
-          
+         <div className="line10">
+           <div className="divprod52">
+            <img src={prod52} alt="" />
+            <button>Peneira Elétrica Giratória</button>
+           </div>
+           <div className="divprod53">
+            <img src={prod53} alt="" />
+            <button>M. de Solda 200AMP 400AMP</button>
+           </div>
+           <div className="divprod54">
+            <img src={prod54} alt="" />
+            <button>Máquina de Polir Piso</button>
+           </div>
+           <div className="divprod55">
+            <img src={prod55} alt="" />
+            <button>Acabadora de Pisos</button>
+           </div>
+         </div>
+
+         <div className="line11">
+            <div className="divprod56">
+                <img src={prod56} alt="" />
+                <button>Perfuratriz Pneumática</button>
+            </div>
+            <div className="divprod57">
+                <img src={prod57} alt="" />
+                <button>Serra Policorte</button>
+            </div>
+            <div className="divprod58">
+                <img src={prod58} alt="" />
+                <button>Serra de Mesa Pica-pau</button>
+            </div>
+            <div className="divprod59">
+                <img src={prod59} alt="" />
+                <button>Cortadora de Piso</button>
+            </div>
+         </div>
+
+         <div className="line12">
+            <div className="divprod60">
+                <img src={prod60} alt="" />
+                <button>Empilhadeira</button>
+            </div>
+         </div>
+
         </div>
         </div>
 

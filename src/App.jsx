@@ -11,6 +11,11 @@ import Diversos from './pages/page02/Categorias/Diversos.jsx'
 import Escoramento from './pages/page02/Categorias/Escoramento.jsx'
 import Ferramentas from './pages/page02/Categorias/Ferramentas.jsx'
 import Geradores from './pages/page02/Categorias/Geradores.jsx'
+import Maquinas from './pages/page02/Categorias/Maquinas.jsx'
+import Cargas from './pages/page02/Categorias/Cargas.jsx'
+import Plataformas from './pages/page02/Categorias/Plataformas.jsx'
+import Terraplanagem from './pages/page02/Categorias/Terraplanagem.jsx'
+import Torre from './pages/page02/Categorias/Torre.jsx'
 
 
 
@@ -33,6 +38,11 @@ function App() {
       <Route path='/Escoramento' element={<Escoramento />}/>
       <Route path='/Ferramentas' element={<Ferramentas />}/>
       <Route path='/Geradores' element={<Geradores />}/>
+      <Route path='/Maquinas' element={<Maquinas />}/>
+      <Route path='/Cargas' element={<Cargas />}/>
+      <Route path='/Plataformas' element={<Plataformas />}/>
+      <Route path='/Terraplanagem' element={<Terraplanagem />}/>
+      <Route path='/Torre' element={<Torre />}/>
 
       <Route path='*' element={<h1>Not Found</h1>}/>
      </Routes>
