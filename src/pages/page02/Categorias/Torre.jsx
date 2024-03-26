@@ -1,6 +1,7 @@
 import Header from '../../../Components/Header'
 import Footer from '../../../Components/Footer'
 import './Categorias.css'
+import './Torre.css'
 
 import { Carousel } from 'antd';
 import img1 from './img/img1.jpg'
@@ -57,7 +58,7 @@ export default function Torre() {
         </div>
       </Carousel>
 
-        <section className="hero2">
+        <section className="torre">
 
         <div className="search-container">
             <h1>Buscar Equipamento</h1>

@@ -1,0 +1,48 @@
+
+.caminhao {
+    background-image: url('../Categorias/img/back.png');
+    width: 100%;
+    height: 1100px;
+}
+
+@media screen and (max-width: 730px) {
+    
+
+    .caminhao {
+        background-image: url('../Categorias/img/back.png');
+        margin-top: 0;
+        width: 100%;
+        height: 1050px;
+        overflow: hidden;
+    }
+
+    .App {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .search-container {
+        display: none;
+    }
+
+    .categorias-containers {
+        margin-left: -260px;
+    }
+    
+    .lista-categorias {
+        margin-left: 300px;
+    }
+
+    .produtos {
+        margin-left: 80px;
+    }
+
+    .line1 {
+        display: flexbox;
+        flex-direction: column;
+    }
+    .line2 {
+        display: flex;
+        flex-direction: column;
+    }
+}

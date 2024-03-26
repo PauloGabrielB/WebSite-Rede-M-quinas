@@ -1,6 +1,7 @@
 import Header from '../../../Components/Header'
 import Footer from '../../../Components/Footer'
 import './Categorias.css'
+import './Cargas.css'
 
 import { Carousel } from 'antd';
 import img1 from './img/img1.jpg'
@@ -60,7 +61,7 @@ export default function Cargas() {
         </div>
       </Carousel>
 
-        <section className="hero2">
+        <section className="cargas">
 
         <div className="search-container">
             <h1>Buscar Equipamento</h1>

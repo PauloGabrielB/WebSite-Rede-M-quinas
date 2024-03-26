@@ -1,7 +1,6 @@
 import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
 import '../page02/Equipamentos.css'
-import './Equipamentos.css'
 
 import React, { useState } from 'react';
 import { Carousel } from 'antd';
@@ -65,7 +64,7 @@ export default function Equipamentos() {
         </div>
       </Carousel>
 
-        <section className="hero">
+        <section className="hhero">
 
         <div className="search-container">
             <h1>Buscar Equipamento</h1>

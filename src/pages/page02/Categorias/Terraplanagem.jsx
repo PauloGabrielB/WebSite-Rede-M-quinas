@@ -1,6 +1,7 @@
 import Header from '../../../Components/Header'
 import Footer from '../../../Components/Footer'
 import './Categorias.css'
+import './Terraplanagem.css'
 
 import { Carousel } from 'antd';
 import img1 from './img/img1.jpg'
@@ -59,7 +60,7 @@ export default function Terraplanagem() {
         </div>
       </Carousel>
 
-        <section className="hero2">
+        <section className="terraplanagem">
 
         <div className="search-container">
             <h1>Buscar Equipamento</h1>
