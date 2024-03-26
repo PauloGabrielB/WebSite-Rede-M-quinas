@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Righteous&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+.caption-1 h1 {
+    width: 1000px;
+    height: 60px;
+    font-family: Poppins;
+
+}
+
+.hero {
+    background-image: url('/src/pages/page02/img/back.png');
+    width: 100%;
+    height: 1100px;
+}
+
+.search-container {
+    padding-top: 50px;
+}
+
+.search-container h1 {
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    color: black;
+}
+
+.search-container input {
+    margin-top: 30px;
+    margin-left: 500px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+
+.search-container button {
+    width: 80px;
+    height: 50px;
+    border: none;
+    background: red;
+    color: #fff;
+    border-radius: 0 10px 10px 0px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.lista-categorias {
+    background: rgba(0, 0, 0, 0.541);
+    width: 300px;
+    height: 620px;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.categorias-list {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+
+    margin-bottom: 30px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.category-item a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+
+.App {
+    display: flex;
+    flex-direction: row;
+}
+
+.lista-categorias h1 {
+    font-size: 35px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.category-item {
+      font-family: Poppins;
+      padding-top: 10px;
+      margin-left: 0px;
+      text-decoration: none;
+      text-wrap: nowrap;
+      width: 200px;
+}
+
+.produtos {
+    width: 1000px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.line1 {
+    display: flex;
+}
+
+.divprod1 {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+}   
+
+.divprod1 img {
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.divprod1 button {
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    border: none;
+    background: rgba(0, 0, 0, 0.541);
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.divprod2 {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+}  
+
+.divprod2 img {
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.divprod2 button {
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    border: none;
+    background: rgba(0, 0, 0, 0.541);
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.divprod3 {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+}   
+
+.divprod3 img {
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.divprod3 button {
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    border: none;
+    background: rgba(0, 0, 0, 0.541);
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 15px;
+}
+.divprod4 {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+}   
+
+.divprod4 img {
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+.divprod4 button {
+    width: 100%;
+    height: 30px;
+    margin-top: 62px;
+    border: none;
+    background: rgba(0, 0, 0, 0.541);
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 600;
+    
+}
+
+.line2 {
+    display: flex;
+}
+
+.divprod5 {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+}   
+
+.divprod5 img {
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.divprod5 button {
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    border: none;
+    background: rgba(0, 0, 0, 0.541);
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.divprod6 {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+}   
+
+.divprod6 img {
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.divprod6 button {
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    border: none;
+    background: rgba(0, 0, 0, 0.541);
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.divprod7 {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+}   
+
+.divprod7 img {
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.divprod7 button {
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    border: none;
+    background: rgba(0, 0, 0, 0.541);
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.divprod8 {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+}   
+
+.divprod8 img {
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.divprod8 button {
+    width: 100%;
+    height: 30px;
+    margin-top: 40px;
+    border: none;
+    background: rgba(0, 0, 0, 0.541);
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.divprod9 {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+}   
+
+.divprod9 img {
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.divprod9 button {
+    width: 100%;
+    height: 30px;
+    margin-top: 40px;
+    border: none;
+    background: rgba(0, 0, 0, 0.541);
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 600;
+}

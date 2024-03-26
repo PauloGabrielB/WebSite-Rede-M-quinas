@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../img/logorm.png';
 import menu from '../img/menu_white_36dp.svg';
 import closeMenu from '../img/close_white_36dp.svg';
+
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,9 +23,16 @@ export default function Header() {
 
                 <div className="nav-list">
                     <ul className={isMenuOpen ? 'nav-list-open' : 'nav-list-closed'}>
+                        <Link to={'/'}>
                         <li className='nav-item'><a className='nav-link' href="#home">Home</a></li>
-                        <li className='nav-item'><a className='nav-link' href="#equipamentos">Equipamentos</a></li>
-                        <li className='nav-item'><a className='nav-link' href="#sobre">Sobre</a></li>
+                        </Link>
+                        <Link to={'/Equipamentos'}>
+                            <li className='nav-item'><a className='nav-link' href="#equipamentos">Equipamentos</a></li>
+                        </Link>
+                        <Link to={'/Sobre'}>
+                            <li className='nav-item'><a className='nav-link' href="#sobre">Sobre</a></li>
+                        </Link>
+                        
                         <li className='nav-item'><a className='nav-link' href="#contato">Contato</a></li>
                         <li className='nav-item'><a className='nav-link' href="#contato">Trabalhe Conosco</a></li>
                         <li className='nav-item'><a className='nav-link' href="#contato">SAC</a></li>

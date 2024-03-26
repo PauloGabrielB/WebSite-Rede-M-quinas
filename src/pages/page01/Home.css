@@ -14,45 +14,22 @@
 .caption-1 {
     position: absolute;
     top: 50%;
-    margin-left: 700px;
+    margin-left: 680px;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white; /* cor do texto */
 }
 
-.caption-1, .caption-2, .caption-3 h1 {
-    font-family: Jost;
+.caption-1 h1 {
+    font-family: Poppins;
     font-weight: 600;
 }
 
-.caption-1, .caption-2, .caption-3 {
+.caption-1 p {
     font-family: Jost;
-    font-size: 20px;
+    font-weight: 600;
 }
-
 .caption-1 button {
-    width: 200px;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    background: rgb(211, 2, 2);
-    color: #fff;
-    margin-top: 20px;
-    font-family: Jost;
-    font-weight: 600;
-}
-.caption-2 button {
-    width: 200px;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    background: rgb(211, 2, 2);
-    color: #fff;
-    margin-top: 20px;
-    font-family: Jost;
-    font-weight: 600;
-}
-.caption-3 button {
     width: 200px;
     height: 40px;
     border-radius: 10px;
@@ -67,19 +44,51 @@
 .caption-2 {
     position: absolute;
     top: 50%;
-    margin-left: 700px;
+    margin-left: 680px;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white; /* cor do texto */
 }
 
+.caption-2 h1 {
+    font-family: Jost;
+    font-weight: 600;
+}
+
+.caption-2 p {
+    font-family: Jost;
+    font-weight: 600;
+}
+.caption-2 button {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(211, 2, 2);
+    color: #fff;
+    margin-top: 20px;
+    font-family: Jost;
+    font-weight: 600;
+}
 .caption-3 {
     position: absolute;
     top: 50%;
-    margin-left: 700px;
+    margin-left: 680px;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white; /* cor do texto */
+}
+
+.caption-3 button {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(211, 2, 2);
+    color: #fff;
+    margin-top: 20px;
+    font-family: Jost;
+    font-weight: 600;
 }
 
 
@@ -197,9 +206,584 @@
 
 /* Categorias */
 
-.title {
-    font-family: IBM Plex Sans;
+.back {
+    background-image: url('/src/pages/page01/img/back.png');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem dentro do elemento */
+}
+
+.categorias {
+    
+    width: 100%; /* Largura do elemento */
+    height: 100vh; /* Altura do elemento */
+}
+
+.title h1 {
+    font-family: Jost;
     font-weight: 600;
     font-size: 30px;
-    margin: 10px
+    padding-top: 30px;
+    text-align: center;
 }
+
+.cards-caption {
+    display: flex;
+    justify-content: center;
+}
+.card-1 {
+    width: 200px;
+    height: 400px;
+    border: none;
+    border-radius: 20px;
+    margin: 30px;
+    background-image: url('/src/pages/page01/img/card1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-1 h1 {
+    font-size: 25px;
+    font-family: Jost;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 410px;
+}
+
+.card-2 {
+    width: 200px;
+    height: 400px;
+    border: none;
+    border-radius: 20px;
+    margin: 30px;
+    background-image: url('/src/pages/page01/img/card2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-2 h1 {
+    font-size: 25px;
+    font-family: Jost;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 410px;
+}
+
+.card-3 {
+    width: 200px;
+    height: 400px;
+    border: none;
+    border-radius: 20px;
+    margin: 30px;
+    background-image: url('/src/pages/page01/img/card3.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-3 h1 {
+    font-size: 25px;
+    font-family: Jost;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 410px;
+}
+
+.card-4 {
+    width: 200px;
+    height: 400px;
+    border: none;
+    border-radius: 20px;
+    margin: 30px;
+    background-image: url('/src/pages/page01/img/card4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-4 h1 {
+    font-size: 25px;
+    font-family: Jost;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 410px;
+}
+
+.card-5 {
+    width: 200px;
+    height: 400px;
+    border: none;
+    border-radius: 20px;
+    margin: 30px;
+    background-image: url('/src/pages/page01/img/card5.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-5 h1 {
+    font-size: 25px;
+    font-family: Jost;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 410px;
+}
+
+.card-2::before {
+    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
+    border-radius: 20px; /* Mesmo raio de borda que o container pai */
+    z-index: 1; /* Coloca a sombra acima do conteúdo */
+}
+
+/* Categorias - Responsivo */
+
+@media screen and ( max-width: 730px ) {
+
+.back {
+    width: 100%;
+    height: 2200px;
+}
+    
+.categorias-caption {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-caption {
+    flex-direction: column;
+}
+
+.card-1 {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.card-1 h1 {
+    margin-top: 210px;
+}
+
+.card-2 {
+    width: 300px;
+    height: 200px;
+}
+
+.card-2 h1 {
+    margin-top: 210px;
+}
+
+.card-3 {
+    width: 300px;
+    height: 200px;
+}
+
+.card-3 h1 {
+    margin-top: 210px;
+}
+
+.card-4 {
+    width: 220px;
+    height: 200px;
+    margin-left: 70px;
+    border-radius: 0px;
+}
+
+.card-4 h1 {
+    margin-top: 210px;
+}
+
+.card-5 {
+    width: 300px;
+    height: 200px;
+}
+
+.card-5 h1 {
+    margin-top: 210px;
+}
+    
+}
+
+/* Container Circular */
+
+.hero {
+    
+    width: 100%; /* Largura do elemento */
+    height: 900px; /* Altura do elemento */
+}
+
+.container {
+    padding-top: 100px;
+    display: flex;
+}
+
+.coluna-1 {
+    margin-left: -700px;
+    margin-top: -30px;
+}
+.div1 {
+    margin-left: 100px;
+}
+
+.div1 h1 {
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: Jost;
+    font-weight: 600;
+}
+
+.div1 img {
+    width: 150px;
+    height: 150px;
+    margin-top: -110px;
+    margin-left: 150px;
+}
+
+.div2 {
+    margin-top: 150px;
+    margin-left: 0px;
+}
+
+.div2 h1 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Jost;
+    font-weight: 600;
+}
+
+.div2 img {
+    width: 150px;
+    height: 150px;
+    margin-top: -95px;
+    margin-left: 160px;
+}
+
+.div3 {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.div3 h1 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Jost;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.div3 img {
+    width: 150px;
+    height: 150px;
+    margin-top: -98px;
+    margin-left: 165px;
+}
+
+.coluna-2 {
+    margin-left: 600px;
+    margin-top: -30px;
+}
+
+.div4 {
+    margin-left: -240px;    
+}
+.div4 h1 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Jost;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.div4 img {
+    width: 150px;
+    height: 150px;
+    margin-top: -98px;
+    margin-left: -80px;
+}
+
+.div5 {
+    margin-top: 150px;
+    margin-left: -140px;
+}
+.div5 h1 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Jost;
+    font-weight: 600;
+}
+.div5 img {
+    width: 150px;
+    height: 150px;
+    margin-top: -98px;
+    margin-left: -85px;
+}
+
+.div6 {
+    margin-top: 150px;
+    margin-left: -230px;
+}
+.div6 h1 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Jost;
+    font-weight: 600;
+}
+.div6 img {
+    width: 150px;
+    height: 150px;
+    margin-top: -98px;
+    margin-left: -100px; 
+}
+.center-image {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin-left: 350px;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6 {
+    width: 220px;
+    height: 60px;
+    background: #fff;
+    border-radius: 20px;   
+}
+
+/* Categorias - Responsivo */
+
+@media screen and (max-width: 730px) {
+
+
+
+.hero {
+  margin-top: 700px;
+}
+
+.container {
+    margin-left: -20px;
+}
+
+.center-image {
+    display: none;
+}
+
+.coluna-1 {
+    margin-left: -20px;
+}
+
+.div1 {
+    margin-left: 50px;
+    width: 120px;
+}
+
+.div1 h1 {
+    font-size: 14px;
+    margin-left: 15px;
+    padding-top: 10px;
+    font-family: Jost;
+    font-weight: 600;
+}
+
+.div1 img {
+    width: 100px;
+    height: 100px;
+    margin-top: -70px;
+    margin-left: 75px;
+}
+
+.div2 {
+    margin-left: 50px;
+    width: 120px;
+    margin-top: 50px;
+}
+
+.div2 h1 {
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: Jost;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.div2 img {
+    width: 100px;
+    height: 100px;
+    margin-top: -65px;
+    margin-left: 75px;
+}
+
+.div3 {
+    margin-left: 50px;
+    width: 120px;
+    margin-top: 50px;
+}
+
+.div3 h1 {
+    font-size: 14px;
+    padding-top: 20px;
+    font-family: Jost;
+    font-weight: 600;
+    margin-left: 5px;
+    width: 80px;
+}
+
+.div3 img {
+    width: 100px;
+    height: 100px;
+    margin-top: -65px;
+    margin-left: 75px;
+}
+
+.coluna-2 {
+    margin-left: 20px;
+}
+
+.div4 {
+    margin-left: 50px;
+    width: 120px;
+}
+
+.div4 h1 {
+    font-size: 14px;
+    margin-left: -20px;
+    padding-top: 20px;
+    font-family: Jost;
+    font-weight: 600;
+}
+
+.div4 img {
+    width: 100px;
+    height: 100px;
+    margin-top: -65px;
+    margin-left: 75px;
+}
+
+.div5 {
+    margin-left: 50px;
+    width: 120px;
+    margin-top: 50px;
+}
+
+.div5 h1 {
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: Jost;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.div5 img {
+    width: 100px;
+    height: 100px;
+    margin-top: -65px;
+    margin-left: 75px;
+}
+
+.div6 {
+    margin-left: 50px;
+    width: 120px;
+    margin-top: 50px;
+}
+
+.div6 h1 {
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: Jost;
+    font-weight: 600;
+    margin-left: 15px;
+    width: 80px;
+}
+
+.div6 img {
+    width: 100px;
+    height: 100px;
+    margin-top: -65px;
+    margin-left: 75px;
+}
+}
+
+/* Missão */
+
+
+.missao {
+    display: flex;
+    width: 1100px;
+    height: 200px;
+    background-image: url('/src/pages/page01/img/img11.png');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem dentro do elemento */
+    display: flex;
+    margin-left: 130px;
+    margin-top: 100px;
+    border-radius: 20px;
+    position: relative; /* Importante para posicionar a sombra */
+}
+
+.missao::before {
+    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
+    border-radius: 20px; /* Mesmo raio de borda que o container pai */
+    z-index: 1; /* Coloca a sombra acima do conteúdo */
+}
+
+.missao-texto {
+    text-align: center;
+    color: #fff;
+    font-family: Jost;
+    font-size: 20px;
+    width: 800px;
+    margin-top: 0px;
+    margin-left: 140px;
+    position: relative; /* Importante para posicionar o texto acima da sombra */
+    z-index: 2; /* Coloca o texto acima da sombra */
+}
+
+.missao-texto h1 {
+    font-family: Jost;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.missao-texto p {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sombra {
+    width: 1100px;
+    height: 200px;
+    background: black;
+}
+
+/* Container Missão - Responsivo */
+
+@media screen and (max-width: 730px) {
+
+.missao {
+    display: flex;
+    width: 350px;
+    height: 280px;
+    margin:20px;
+    margin-top: 80px;
+}
+
+.missao-texto {
+    margin-left: 0px;
+}
+
+.missao-texto p {
+    font-size: 14px;
+    width: 300px;
+    margin-left: 25px;
+}
+
+}
+

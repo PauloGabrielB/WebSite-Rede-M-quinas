@@ -1,23 +1,17 @@
-import Header from '../../Components/Header'
-import Footer from '../../Components/Footer'
-import '../page02/Equipamentos.css'
-import './Equipamentos.css'
+import Header from '../../../Components/Header'
+import Footer from '../../../Components/Footer'
+import './Categorias.css'
 
-import React, { useState } from 'react';
 import { Carousel } from 'antd';
-import { Link } from 'react-router-dom';
 import img1 from './img/img1.jpg'
+import { Link } from 'react-router-dom';
 
 // Imagem dos Produtos
-import prod1 from './img/prod1.png'
-import prod2 from './img/prod2.png'
-import prod3 from './img/prod3.png'
-import prod4 from './img/prod4.png'
-import prod5 from './img/prod5.jpg'
-import prod6 from './img/prod6.png'
-import prod7 from './img/prod7.jpg'
-import prod8 from './img/prod8.png'
-import prod9 from './img/prod9.png'
+import prod30 from './img/prod30.png'
+import prod31 from './img/prod31.png'
+import prod32 from './img/prod32.png'
+import prod33 from './img/prod33.png'
+import prod34 from './img/prod34.png'
 
 
 const contentStyle = {
@@ -29,7 +23,7 @@ const contentStyle = {
     background: '#364d79',
   };
 
-export default function Equipamentos() {
+export default function Compressores() {
 
     const onChange = (currentSlide) => {
         console.log(currentSlide);
@@ -94,10 +88,19 @@ export default function Equipamentos() {
            <Link to={'/Compressores'}>
                 <li className='category-item' ><a href="">Compressores de Ar</a></li>
             </Link>
-            <li className='category-item' ><a href="">Container</a></li>
-            <li className='category-item' ><a href="">Diversos</a></li>
-            <li className='category-item' ><a href="">Escoramento</a></li>
-            <li className='category-item' ><a href="">Ferramentas Elétricas</a></li>
+            <Link to={'/Container'}>
+                <li className='category-item' ><a href="">Container</a></li>
+            </Link>
+            <Link to={'/Diversos'}>
+                <li className='category-item' ><a href="">Diversos</a></li>
+            </Link>
+            <Link to={'/Escoramento'}>
+                <li className='category-item' ><a href="">Escoramento</a></li>
+            </Link>
+            <Link to={'/Ferramentas'}>
+                <li className='category-item' ><a href="">Ferramentas Elétricas</a></li>
+            </Link>
+
             <li className='category-item' ><a href="">Geradores</a></li>
             <li className='category-item' ><a href="">Máquinas</a></li>
             <li className='category-item' ><a href="">Movimentação de Cargas</a></li>
@@ -109,51 +112,36 @@ export default function Equipamentos() {
             
         </div>
         <div className="produtos">
-          <div className="line1">
-            <div className="divprod1">
-            <img src={prod1} alt="" />
-            <button>Andaime Fachadeiro</button>
-          </div>
-          <div className="divprod2">
-            <img src={prod2} alt="" />
-            <button>Andaime Tubular</button>
-          </div>
-          <div className="divprod3">
-            <img src={prod3} alt="" />
-            <button>Andaime Multidirecional</button>
-          </div>
-          <div className="divprod4">
-            <img src={prod4} alt="" />
-            <button>Andaime Suspenso</button>
-          </div>
-          </div>
-
-          <div className="line2">
-            <div className="divprod5">
-            <img src={prod5} alt="" />
-            <button>Diagonal P/Andaime</button>
-          </div>
-          <div className="divprod6">
-            <img src={prod6} alt="" />
-            <button>Escada P/Andaime</button>
-          </div>
-          <div className="divprod7">
-            <img src={prod7} alt="" />
-            <button>Rodizio P/Andaime</button>
-          </div>
-          <div className="divprod8">
-            <img src={prod8} alt="" />
-            <button>Sapata Ajustavel</button>
-          </div>
-          </div>
-
-          <div className="line3">
-            <div className="divprod9">
-              <img src={prod9} alt="" />
-              <button>Sapata Fixa</button>
+        <div className="line6">
+            <div className="divprod30">
+                <img src={prod30} alt="" />
+                <button>Escora Metálica 2 a 3,10 e 3 a 4,5</button>
+            </div>
+            <div className="divprod30">
+                <img src={prod30} alt="" />
+                <button>Escora Metálica 2,00 a 3,10 m</button>
+            </div>
+            <div className="divprod31">
+                <img src={prod31} alt="" />
+                <button>Forcado Simples</button>
+            </div>
+            <div className="divprod32">
+                <img src={prod32} alt="" />
+                <button>Forcado Duplo</button>
             </div>
           </div>
-          
+
+          <div className="line7">
+            <div className="divprod33">
+            <img src={prod33} alt="" />
+                <button>Tensor</button>
+            </div>
+            <div className="divprod34">
+            <img src={prod34} alt="" />
+                <button>Barra de Ancoragem</button>
+            </div>
+          </div>
+
         </div>
         </div>
 
