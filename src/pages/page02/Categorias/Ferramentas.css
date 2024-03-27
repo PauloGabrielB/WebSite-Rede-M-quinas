@@ -12,7 +12,7 @@
         background-image: url('../Categorias/img/back.png');
         margin-top: 0;
         width: 100%;
-        height: 4400px;
+        height: 5830px;
         overflow: hidden;
     }
 
@@ -52,5 +52,370 @@
     .line10 {
         display: flexbox;
         flex-direction: column;
+    }
+
+    .divprod35 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod35 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 55px;
+    }
+    
+    .divprod35 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .divprod36 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod36 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 75px;
+    }
+    
+    .divprod36 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 50px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .divprod37 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod37 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 80px;
+    }
+    
+    .divprod37 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 45px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .divprod38 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod38 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 55px;
+    }
+    
+    .divprod38 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 30px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .divprod39 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod39 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+    
+    .divprod39 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 25px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .divprod40 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod40 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+    
+    .divprod40 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 25px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .divprod41 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod41 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 55px;
+    }
+    
+    .divprod41 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 30px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .divprod42 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod42 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+    
+    .divprod42 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 25px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .divprod43 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod43 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 55px;
+    }
+    
+    .divprod43 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .divprod44 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod44 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 45px;
+    }
+    
+    .divprod44 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 15px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .divprod45 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod45 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    
+    .divprod45 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .divprod46 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod46 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 55px;
+    }
+    
+    .divprod46 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 30px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .divprod47 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod47 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 55px;
+    }
+    
+    .divprod47 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 30px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .divprod48 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod48 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 55px;
+    }
+    
+    .divprod48 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
     }
 }

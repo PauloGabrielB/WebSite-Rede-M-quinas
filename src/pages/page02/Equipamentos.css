@@ -348,12 +348,30 @@
 /* Equipamentos - Responsivo */
 
 @media screen and (max-width: 730px) {
+
+    .caption-1 {
+        margin-top: 20px;
+        width: 300px;
+        height: 140px;
+        background: rgba(0, 0, 0, 0.541);
+    }
     
+    .carousel-1 h1 {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 25px;
+        width: 250px;
+    }
+
+    .carousel-1 button {
+        margin-top: -30px;
+        font-size: 18px;
+    }
 
     .hhero {
         margin-top: 0;
         width: 100%;
-        height: 3100px;
+        height: 4000px;
         overflow: hidden;
     }
 
@@ -386,4 +404,254 @@
         display: flex;
         flex-direction: column;
     }
+
+    .line1 {
+        display: flex;
+    }
+    
+    .divprod1 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin: 10px;
+        margin-top: 50px;
+        margin-left: -35px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod1 img {
+        width: 80%;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    
+    .divprod1 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 35px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .divprod2 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -35px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }  
+    
+    .divprod2 img {
+        width: 80%;
+        margin-left: 35px;
+        margin-top: 15px;
+    }
+    
+    .divprod2 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 45px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .divprod3 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -35px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod3 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    
+    .divprod3 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 35px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .divprod4 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -35px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod4 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 75px;
+    }
+    
+    .divprod4 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 85px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .line2 {
+        display: flex;
+    }
+    
+    .divprod5 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -35px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod5 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    
+    .divprod5 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 45px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .divprod6 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -35px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod6 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+    
+    .divprod6 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 25px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .divprod7 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -35px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod7 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    
+    .divprod7 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 35px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .divprod8 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -35px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod8 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    
+    .divprod8 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 45px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .divprod9 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -35px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod9 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    
+    .divprod9 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 45px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    
 }

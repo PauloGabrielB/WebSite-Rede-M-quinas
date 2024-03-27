@@ -16,6 +16,7 @@ import Cargas from './pages/page02/Categorias/Cargas.jsx'
 import Plataformas from './pages/page02/Categorias/Plataformas.jsx'
 import Terraplanagem from './pages/page02/Categorias/Terraplanagem.jsx'
 import Torre from './pages/page02/Categorias/Torre.jsx'
+import Sobre from './pages/page03/Sobre.jsx'
 
 
 
@@ -43,7 +44,8 @@ function App() {
       <Route path='/Plataformas' element={<Plataformas />}/>
       <Route path='/Terraplanagem' element={<Terraplanagem />}/>
       <Route path='/Torre' element={<Torre />}/>
-
+      <Route path='/Sobre' element={<Sobre />}/>
+       
       <Route path='*' element={<h1>Not Found</h1>}/>
      </Routes>
      </BrowserRouter>

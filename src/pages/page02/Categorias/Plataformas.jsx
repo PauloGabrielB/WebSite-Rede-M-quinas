@@ -1,6 +1,7 @@
 import Header from '../../../Components/Header'
 import Footer from '../../../Components/Footer'
 import './Categorias.css'
+import './Plataformas.css'
 
 import { Carousel } from 'antd';
 import img1 from './img/img1.jpg'

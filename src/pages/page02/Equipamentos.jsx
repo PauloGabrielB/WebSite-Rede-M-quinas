@@ -1,6 +1,7 @@
 import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
 import '../page02/Equipamentos.css'
+import './Equipamentos.css'
 
 import React, { useState } from 'react';
 import { Carousel } from 'antd';

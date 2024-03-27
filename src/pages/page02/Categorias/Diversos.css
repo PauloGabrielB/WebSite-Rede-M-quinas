@@ -12,7 +12,7 @@
         background-image: url('../Categorias/img/back.png');
         margin-top: 0;
         width: 100%;
-        height: 3100px;
+        height: 4000px;
         overflow: hidden;
     }
 
@@ -40,5 +40,113 @@
     .line5 {
         display: flexbox;
         flex-direction: column;
+    }
+
+    .divprod26 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod26 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 55px;
+    }
+    
+    .divprod26 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .divprod27 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod27 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+    
+    .divprod27 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 25px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .divprod28 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod28 img {
+        width: 85%;
+        margin-left: 20px;
+        margin-top: 55px;
+    }
+    
+    .divprod28 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 15px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .divprod29 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod29 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+    
+    .divprod29 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 25px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
     }
 }

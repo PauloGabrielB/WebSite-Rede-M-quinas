@@ -41,7 +41,7 @@ export default function Home() {
         <div className='carousel-1'>
           <img className='img1' src={img1} alt=""/>
           <div className="caption-1">
-            <h1>Os Melhores Equipamentos</h1>
+            <h1>Os Melhores Equipamentos você encontra aqui.</h1>
             <p>Disponiveis a pronta entrega, basta ligar</p>
             <button>Orçamento</button>
           </div>

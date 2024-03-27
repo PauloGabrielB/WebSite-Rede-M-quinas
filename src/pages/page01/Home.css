@@ -18,19 +18,26 @@
     transform: translate(-50%, -50%);
     text-align: center;
     color: white; /* cor do texto */
+    background: rgba(0, 0, 0, 0.541);
+    width: 1200px;
+    height: 400px;
+    
 }
 
 .caption-1 h1 {
     font-family: Poppins;
     font-weight: 600;
+    margin-left: 100px;
+    margin-top: 100px;
 }
 
 .caption-1 p {
-    font-family: Jost;
+    font-family: Poppins;
     font-weight: 600;
+    font-size: 25px;
 }
 .caption-1 button {
-    width: 200px;
+    width: 300px;
     height: 40px;
     border-radius: 10px;
     border: none;
@@ -39,6 +46,7 @@
     margin-top: 20px;
     font-family: Jost;
     font-weight: 600;
+    font-size: 20px;
 }
 
 .caption-2 {
@@ -95,6 +103,27 @@
 /* Home Respinsivo */
 @media screen and (max-width: 730px) {
 
+    .caption-1 {
+        margin-top: 20px;
+        width: 300px;
+        height: 140px;
+        background: rgba(0, 0, 0, 0.541);
+    }
+    
+    .carousel-1 h1 {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 25px;
+        width: 250px;
+    }
+
+    .caption-1 p {
+        display: none;
+    }
+
+    .carousel-1 button {
+        font-size: 18px;
+    }
 
     .carousel {
         width: 100%;
@@ -241,6 +270,16 @@
     background-position: center;
 }
 
+.card-1::before {
+    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    width: 200px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
+    border-radius: 20px; /* Mesmo raio de borda que o container pai */
+    z-index: 1; /* Coloca a sombra acima do conteúdo */
+}
+
 .card-1 h1 {
     font-size: 25px;
     font-family: Jost;
@@ -258,6 +297,27 @@
     background-image: url('/src/pages/page01/img/card2.png');
     background-size: cover;
     background-position: center;
+}
+
+.card-2::before {
+    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    width: 200px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
+    border-radius: 20px; /* Mesmo raio de borda que o container pai */
+    z-index: 1; /* Coloca a sombra acima do conteúdo */
+    margin-left: 323px;
+    margin-top: 654px;
+}
+.card-2::before {
+    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);/* Cor vermelha com 50% de transparência */
+    border-radius: 20px; /* Mesmo raio de borda que o container pai */
+    z-index: 1; /* Coloca a sombra acima do conteúdo */
 }
 
 .card-2 h1 {
@@ -279,6 +339,16 @@
     background-position: center;
 }
 
+.card-3::before {
+    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    width: 200px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
+    border-radius: 20px; /* Mesmo raio de borda que o container pai */
+    z-index: 1; /* Coloca a sombra acima do conteúdo */
+}
+
 .card-3 h1 {
     font-size: 25px;
     font-family: Jost;
@@ -296,6 +366,16 @@
     background-image: url('/src/pages/page01/img/card4.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.card-4::before {
+    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    width: 200px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
+    border-radius: 20px; /* Mesmo raio de borda que o container pai */
+    z-index: 1; /* Coloca a sombra acima do conteúdo */
 }
 
 .card-4 h1 {
@@ -317,6 +397,16 @@
     background-position: center;
 }
 
+.card-5::before {
+    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    width: 200px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
+    border-radius: 20px; /* Mesmo raio de borda que o container pai */
+    z-index: 1; /* Coloca a sombra acima do conteúdo */
+}
+
 .card-5 h1 {
     font-size: 25px;
     font-family: Jost;
@@ -325,23 +415,13 @@
     margin-top: 410px;
 }
 
-.card-2::before {
-    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
-    position: absolute; /* Posicionamento absoluto em relação ao container pai */
-    top: 0;
-    left: 0;
-    background-color: rgba(255, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
-    border-radius: 20px; /* Mesmo raio de borda que o container pai */
-    z-index: 1; /* Coloca a sombra acima do conteúdo */
-}
-
 /* Categorias - Responsivo */
 
 @media screen and ( max-width: 730px ) {
 
 .back {
     width: 100%;
-    height: 2200px;
+    height: 2400px;
 }
     
 .categorias-caption {
@@ -354,51 +434,112 @@
 }
 
 .card-1 {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
     border-radius: 20px;
 }
 
 .card-1 h1 {
-    margin-top: 210px;
+    margin-top: 260px;
+    font-size: 30px;
+}
+
+.card-1::before {
+    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    width: 291px;
+    height: 250px;
+    margin-left: 55px;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
+    border-radius: 0px; /* Mesmo raio de borda que o container pai */
+    z-index: 1; /* Coloca a sombra acima do conteúdo */
 }
 
 .card-2 {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
 }
 
 .card-2 h1 {
-    margin-top: 210px;
+    margin-top: 260px;
+    font-size: 30px;
+}
+
+.card-2::before {
+    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    width: 291px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 664px;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
+    border-radius: 0px; /* Mesmo raio de borda que o container pai */
+    z-index: 1; /* Coloca a sombra acima do conteúdo */
 }
 
 .card-3 {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
+}
+
+.card-3::before {
+    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    width: 291px;
+    height: 250px;
+    margin-left: 55px;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
+    border-radius: 0px; /* Mesmo raio de borda que o container pai */
+    z-index: 1; /* Coloca a sombra acima do conteúdo */
 }
 
 .card-3 h1 {
-    margin-top: 210px;
+    margin-top: 260px;
+    font-size: 30px;
 }
 
 .card-4 {
-    width: 220px;
-    height: 200px;
-    margin-left: 70px;
+    width: 290px;
+    height: 250px;
+    margin-left: 85px;
     border-radius: 0px;
 }
 
+.card-4::before {
+    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    width: 291px;
+    height: 250px;
+    margin-left: 0px;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
+    border-radius: 0px; /* Mesmo raio de borda que o container pai */
+    z-index: 1; /* Coloca a sombra acima do conteúdo */
+}
+
 .card-4 h1 {
-    margin-top: 210px;
+    margin-top: 260px;
+    font-size: 30px;
 }
 
 .card-5 {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
 }
 
 .card-5 h1 {
-    margin-top: 210px;
+    margin-top: 260px;
+    font-size: 30px;
+}
+
+.card-5::before {
+    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
+    position: absolute; /* Posicionamento absoluto em relação ao container pai */
+    width: 291px;
+    height: 250px;
+    margin-left: 55px;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
+    border-radius: 0px; /* Mesmo raio de borda que o container pai */
+    z-index: 1; /* Coloca a sombra acima do conteúdo */
 }
     
 }
@@ -556,12 +697,13 @@
 
 
 
-.hero {
-  margin-top: 700px;
-}
+/* .hero {
+  
+} */
 
 .container {
     margin-left: -20px;
+    margin-top: 900px;
 }
 
 .center-image {

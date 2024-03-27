@@ -12,7 +12,7 @@
         background-image: url('../Categorias/img/back.png');
         margin-top: 0;
         width: 100%;
-        height: 1550px;
+        height: 1850px;
         overflow: hidden;
     }
 
@@ -41,5 +41,86 @@
     .line4 {
         display: flexbox;
         flex-direction: column;
+    }
+
+    .divprod49 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod49 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+    
+    .divprod49 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 25px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .divprod50 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod50 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 55px;
+    }
+    
+    .divprod50 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 30px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .divprod51 {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        margin-left: -40px;
+        margin-top: 50px;
+        border-radius: 10px 10px 0 0;
+    }   
+    
+    .divprod51 img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 75px;
+    }
+    
+    .divprod51 button {
+        width: 100%;
+        height: 40px;
+        margin-top: 45px;
+        border: none;
+        background: rgba(0, 0, 0, 0.541);
+        color: #fff;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
     }
 }
