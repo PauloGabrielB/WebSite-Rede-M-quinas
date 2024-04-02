@@ -1,0 +1,141 @@
+ 
+
+.carousel-1 h1 {
+    margin-bottom: 40px;
+}    
+
+.sobre {
+    width: 100%;
+    height: 1789px;
+    background-image: url('./img//back.png');
+    background-size: cover;
+}
+
+.sobreimg {
+    width: 750px;
+    height: 450px;
+    border: 3px solid red;
+    margin-left: 300px;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+
+.container-sobre p {
+    width: 80%;
+    text-align: center;
+    margin-left: 125px;
+    padding-top: 50px;
+    font-family: Poppins;
+    font-size: 23px;
+}
+
+.container-sobre img {
+    width: 95%;
+    margin-left: 17px;
+    margin-top: 23px;
+    border-radius: 20px;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.infocards {
+    width: 300px;
+}
+
+.infocards img {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.infocards h1 {
+    margin-top: -250px;
+    margin-left: 130px;
+    font-family: Poppins;
+    color: #fff;
+}
+
+.infocards p {
+    margin-left: 100px;
+    font-family: Poppins;
+    font-size: 15px;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+}
+
+.infocards2 {
+    width: 300px;
+}
+
+.infocards2 img {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.infocards2 h1 {
+    margin-top: -250px;
+    margin-left: 150px;
+    font-family: Poppins;
+    color: #fff;
+}
+
+.infocards2 p {
+    margin-left: 105px;
+    font-family: Poppins;
+    font-size: 15px;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+}
+
+.infocards3 {
+    width: 300px;
+}
+
+.infocards3 img {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.infocards3 h1 {
+    margin-top: -250px;
+    margin-left: 130px;
+    font-family: Poppins;
+    color: #fff;
+}
+
+.infocards3 p {
+    margin-left: 100px;
+    font-family: Poppins;
+    font-size: 15px;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+}
+
+.mapa {
+    display: flex;
+    margin-left: -100px;
+}
+
+.mapa img {
+    width: 1000px;
+    height: 500px;
+    margin-left: -250px;
+    margin-top: 120px;
+}
+
+.mapa p {
+    font-family: Poppins;
+    margin-top: 180px;
+    margin-left: -230px;
+    width: 700px;
+    text-align: end;
+    font-size: 21px;
+}
