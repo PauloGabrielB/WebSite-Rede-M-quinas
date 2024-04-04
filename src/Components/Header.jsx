@@ -32,10 +32,16 @@ export default function Header() {
                         <Link to={'/Sobre'}>
                             <li className='nav-item'><a className='nav-link' href="#sobre">Sobre</a></li>
                         </Link>
+                        <Link to={'/Contato'}>
+                            <li className='nav-item'><a className='nav-link' href="#contato">Contato</a></li>
+                        </Link>
+                        <Link to={'/Trabalhe'}>
+                            <li className='nav-item'><a className='nav-link' href="#contato">Trabalhe Conosco</a></li>
+                        </Link>
+                        <Link to={'/Sac'}>
+                            <li className='nav-item'><a className='nav-link' href="#contato">SAC</a></li>
+                        </Link>
                         
-                        <li className='nav-item'><a className='nav-link' href="#contato">Contato</a></li>
-                        <li className='nav-item'><a className='nav-link' href="#contato">Trabalhe Conosco</a></li>
-                        <li className='nav-item'><a className='nav-link' href="#contato">SAC</a></li>
                     </ul>
                 </div>
 

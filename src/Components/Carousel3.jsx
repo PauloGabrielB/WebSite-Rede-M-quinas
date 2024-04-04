@@ -27,8 +27,8 @@ const contentStyle = {
         <div className='carousel-1'>
         <img className='img1' src={img2} alt=""/>
         <div className="caption-1">
-            <h2>Equipamentos para todas as fases da sua obra.</h2>
-            <button>Orçamento</button>
+            <h3>Equipamentos para todas as fases da sua obra.</h3>
+            <button className='btnc'>Orçamento</button>
         </div>
         </div>
 

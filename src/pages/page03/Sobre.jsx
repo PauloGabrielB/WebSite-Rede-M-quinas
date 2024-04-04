@@ -53,7 +53,9 @@ export default function Sobre() {
         <div className="container-mapa">
             <div className="mapa">
                 <img src={mapa} alt="" />
-                <p>Contamos com uma equipe de profissionais altamente qualificados, seja no atendimento ao cliente, em montagens complexas ou em uma simples manutenção. Além disso, temos uma equipe comercial treinada e qualificada para oferecer sempre as melhores opções de negócio. Para tornar isto possível, o nosso grupo de colaboradores tem se empenhado ao máximo e, através da satisfação de nossos clientes e parceiros, temos a certeza de que estamos cumprindo o nosso objetivo. Temos o compromisso de atender nossos clientes com serviços e produtos que possuem tecnologia de ponta, construindo parcerias bem-sucedidas, solidificando a relação de confiança com seus parceiros e garantindo resultados.</p>
+                <div className="p">
+                    <p>Contamos com uma equipe de profissionais altamente qualificados, seja no atendimento ao cliente, em montagens complexas ou em uma simples manutenção. Além disso, temos uma equipe comercial treinada e qualificada para oferecer sempre as melhores opções de negócio. Para tornar isto possível, o nosso grupo de colaboradores tem se empenhado ao máximo e, através da satisfação de nossos clientes e parceiros, temos a certeza de que estamos cumprindo o nosso objetivo. Temos o compromisso de atender nossos clientes com serviços e produtos que possuem tecnologia de ponta, construindo parcerias bem-sucedidas, solidificando a relação de confiança com seus parceiros e garantindo resultados.</p>
+                </div>
             </div>
         </div>
       </section>

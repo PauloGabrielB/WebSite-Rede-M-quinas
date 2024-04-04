@@ -49,6 +49,23 @@
     font-size: 40px;
 }
 
+.caption-1 h3 {
+    font-family: Poppins;
+    font-weight: 600;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.caption-1 h4 {
+    font-family: Poppins;
+    font-weight: 600;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
 .caption-1 button {
     width: 200px;
     height: 40px;
@@ -161,6 +178,17 @@
         font-size: 20px;
         margin-top: 30px;
         margin-bottom: 35px;
+    }
+
+    .caption-1 h4 {
+        margin-top: 30px;
+        font-size: 18px;
+        /* width: 250px; */
+    }
+
+    .caption-1 h3 {
+        margin-top: 30px;
+        font-size: 18px;
     }
 
     .caption-1 button {
@@ -580,6 +608,114 @@ a {
     padding-top: 10px;
 }
 
+
+/* Formulario */
+
+  .form-control {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+
+  .contato-h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+  }
+
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-family: Poppins;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-container textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Poppins;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    font-size: 25px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-family: Poppins;
+  }
+  
+  .social-icons a i {
+    vertical-align: middle;
+  }
+  .wsp-ico {
+    color: green;
+  }
+  .insta-ico {
+    color: #833AB4 ;
+  }
+
+
+  /* Footer */
+
+.dark-footer {
+    background-color: #fff;
+    color: #9c9c9c;
+    height: 40px;
+    text-align: center;
+    
+  }  
+  .copyright {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+
 /* Footer - Responsivo */
 
 @media screen and (max-width: 730px) {
@@ -638,5 +774,18 @@ a {
 .local h1 {
     font-size: 12px;
 }
+
+.form-container {
+    width: 80%;
+  }
+  .social-icons {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+  }
+  .social-icons a {
+    font-size: 18px;
+  }
 
 }

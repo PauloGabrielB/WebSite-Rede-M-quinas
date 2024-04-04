@@ -1,4 +1,4 @@
-// import '../App.css'
+import '../App.css'
 import { Carousel } from 'antd';
 import cr1 from '../img/cr1.jpg'
 import c4 from '../img/c4.png'
@@ -27,7 +27,7 @@ const contentStyle = {
         <div className='carousel-1'>
         <img className='img1' src={cr1} alt=""/>
         <div className="caption-1">
-            <h2>Equipamentos para todas as fases da sua obra.</h2>
+            <h4>Equipamentos para todas as fases da sua obra.</h4>
             <button>Orçamento</button>
         </div>
         </div>

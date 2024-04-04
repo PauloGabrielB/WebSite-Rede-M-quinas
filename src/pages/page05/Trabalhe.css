@@ -1,0 +1,45 @@
+
+.trabalhe {
+    background-image: url('./img/back.png');
+}
+
+.trabalhe-img {
+    width: 100%;
+    background: #ff0323;
+    height: 300px;
+}
+
+.trabalhe-img img {
+    width: 200px;
+    display: flex;
+}
+
+.trabalhe-img h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: -120px;
+}
+
+.trabalhe-img h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 730px) {
+
+    .trabalhe-img h1 {
+        font-size: 26px;
+        margin-top: -40px;
+    }
+
+    .trabalhe-img img {
+        margin-left: 100px;
+        padding-top: 10px;
+    }
+}
