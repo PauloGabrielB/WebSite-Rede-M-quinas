@@ -2,7 +2,7 @@ import Header from '../../../Components/Header'
 import Footer from '../../../Components/Footer'
 import Carousel2 from '../../../Components/Carousel2'
 import './Categorias.css'
-import './compactador.css'
+import './Compactador.css'
 
 import { Carousel } from 'antd';
 import img1 from './img/img1.jpg'
