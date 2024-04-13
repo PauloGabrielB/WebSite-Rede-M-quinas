@@ -342,6 +342,10 @@
 
 @media screen and (max-width: 730px) {
 
+    .tela-toda {
+        overflow: hidden;
+    }
+
     .caption-1 {
         margin-top: 20px;
         width: 300px;
@@ -364,13 +368,16 @@
     .hhero {
         margin-top: 0;
         width: 100%;
-        height: 4000px;
+        height: 4150px;
         overflow: hidden;
     }
 
     .App {
         display: flex;
         flex-direction: column-reverse;
+        width: 100%;
+        overflow: hidden;
+        margin-left: -50px;
     }
 
     .search-container {
@@ -378,29 +385,27 @@
     }
 
     .categorias-containers {
-        margin-left: -260px;
+        margin-left: 0;
+        width: 100%;
     }
     
     .lista-categorias {
-        margin-left: 300px;
+        /* margin-left: 300px; */
+        text-align: right;
+        height: 650px;
     }
 
-    .produtos {
-        margin-left: 80px;
+   
+
+    .category-item {
+        text-align: start;
+        width: 250px;
     }
 
-    .line1 {
-        display: flexbox;
-        flex-direction: column;
-    }
-    .line2 {
-        display: flex;
-        flex-direction: column;
+    .category-item a {
+        font-size: 15px;
     }
 
-    .line1 {
-        display: flex;
-    }
     
     .divprod1 {
         width: 300px;
@@ -408,8 +413,8 @@
         background: #fff;
         margin: 10px;
         margin-top: 50px;
-        margin-left: -35px;
         border-radius: 10px 10px 0 0;
+        margin-left: -5%;
     }   
     
     .divprod1 img {
@@ -434,7 +439,7 @@
         width: 300px;
         height: 300px;
         background: #fff;
-        margin-left: -35px;
+        margin-left: -5%;
         margin-top: 50px;
         border-radius: 10px 10px 0 0;
     }  
@@ -461,7 +466,7 @@
         width: 300px;
         height: 300px;
         background: #fff;
-        margin-left: -35px;
+        margin-left: -5%;
         margin-top: 50px;
         border-radius: 10px 10px 0 0;
     }   
@@ -487,7 +492,7 @@
         width: 300px;
         height: 300px;
         background: #fff;
-        margin-left: -35px;
+        margin-left: -5%;    
         margin-top: 50px;
         border-radius: 10px 10px 0 0;
     }   
@@ -518,7 +523,7 @@
         width: 300px;
         height: 300px;
         background: #fff;
-        margin-left: -35px;
+        margin-left: -5%;
         margin-top: 50px;
         border-radius: 10px 10px 0 0;
     }   
@@ -545,7 +550,7 @@
         width: 300px;
         height: 300px;
         background: #fff;
-        margin-left: -35px;
+        margin-left: -5%;
         margin-top: 50px;
         border-radius: 10px 10px 0 0;
     }   
@@ -571,7 +576,7 @@
         width: 300px;
         height: 300px;
         background: #fff;
-        margin-left: -35px;
+        margin-left: -5%;
         margin-top: 50px;
         border-radius: 10px 10px 0 0;
     }   
@@ -597,7 +602,7 @@
         width: 300px;
         height: 300px;
         background: #fff;
-        margin-left: -35px;
+        margin-left: -5%;
         margin-top: 50px;
         border-radius: 10px 10px 0 0;
     }   
@@ -623,7 +628,7 @@
         width: 300px;
         height: 300px;
         background: #fff;
-        margin-left: -35px;
+        margin-left: -5%;
         margin-top: 50px;
         border-radius: 10px 10px 0 0;
     }   

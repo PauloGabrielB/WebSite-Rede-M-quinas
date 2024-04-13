@@ -105,12 +105,6 @@
 /* Home Respinsivo */
 @media screen and (max-width: 730px) {
 
-    .caption-1 {
-        margin-top: 20px;
-        width: 300px;
-        height: 140px;
-        background: rgba(0, 0, 0, 0.541);
-    }
     
    
     .carousel {
@@ -118,7 +112,7 @@
         height: 250px;
     }
         
-    .img1, .img2, .img3, .img4 {
+    .img1, .img2, .img3 {
         display: flex;
         width: 100%;
         height: 260px;
@@ -127,7 +121,7 @@
     .caption-1 {
         position: absolute;
         top: 50%;
-        margin-left: 200px;
+        margin-left: 7.2%;
         transform: translate(-50%, -50%);
         text-align: center;
         color: white; /* cor do texto */
@@ -160,7 +154,7 @@
     .caption-2 {
         position: absolute;
         top: 50%;
-        margin-left: 200px;
+        margin-left: 7.2%;
         transform: translate(-50%, -50%);
         text-align: center;
         color: white; /* cor do texto */
@@ -193,7 +187,7 @@
     .caption-3 {
         position: absolute;
         top: 50%;
-        margin-left: 200px;
+        margin-left: 7.2%;
         transform: translate(-50%, -50%);
         text-align: center;
         color: white; /* cor do texto */
@@ -232,7 +226,6 @@
 }
 
 .categorias {
-    
     width: 100%; /* Largura do elemento */
     height: 100vh; /* Altura do elemento */
 }
@@ -248,6 +241,7 @@
 .cards-caption {
     display: flex;
     justify-content: center;
+    /* margin-left: 50px; */
 }
 .card-1 {
     width: 200px;
@@ -260,15 +254,6 @@
     background-position: center;
 }
 
-.card-1::before {
-    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
-    position: absolute; /* Posicionamento absoluto em relação ao container pai */
-    width: 200px;
-    height: 400px;
-    background-color: rgba(255, 0, 0, 0.5);/* Cor vermelha com 50% de transparência */
-    border-radius: 20px; /* Mesmo raio de borda que o container pai */
-    z-index: 1; /* Coloca a sombra acima do conteúdo */
-}
 
 .card-1 h1 {
     font-size: 25px;
@@ -289,26 +274,7 @@
     background-position: center;
 }
 
-.card-2::before {
-    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
-    position: absolute; /* Posicionamento absoluto em relação ao container pai */
-    width: 200px;
-    height: 400px;
-    background-color: rgba(255, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
-    border-radius: 20px; /* Mesmo raio de borda que o container pai */
-    z-index: 1; /* Coloca a sombra acima do conteúdo */
-    margin-left: 323px;
-    margin-top: 654px;
-}
-.card-2::before {
-    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
-    position: absolute; /* Posicionamento absoluto em relação ao container pai */
-    top: 20px;
-    left: 0;
-    background-color: rgba(255, 0, 0, 0.5);/* Cor vermelha com 50% de transparência */
-    border-radius: 20px; /* Mesmo raio de borda que o container pai */
-    z-index: 1; /* Coloca a sombra acima do conteúdo */
-}
+
 
 .card-2 h1 {
     font-size: 25px;
@@ -329,15 +295,7 @@
     background-position: center;
 }
 
-.card-3::before {
-    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
-    position: absolute; /* Posicionamento absoluto em relação ao container pai */
-    width: 200px;
-    height: 400px;
-    background-color: rgba(255, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
-    border-radius: 20px; /* Mesmo raio de borda que o container pai */
-    z-index: 1; /* Coloca a sombra acima do conteúdo */
-}
+
 
 .card-3 h1 {
     font-size: 25px;
@@ -353,20 +311,12 @@
     border: none;
     border-radius: 20px;
     margin: 30px;
-    background-image: url('/src/pages/page01/img/card4.jpg');
+    background-image: url('/src/pages/page01/img/card4.png');
     background-size: cover;
     background-position: center;
 }
 
-.card-4::before {
-    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
-    position: absolute; /* Posicionamento absoluto em relação ao container pai */
-    width: 200px;
-    height: 400px;
-    background-color: rgba(255, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
-    border-radius: 20px; /* Mesmo raio de borda que o container pai */
-    z-index: 1; /* Coloca a sombra acima do conteúdo */
-}
+
 
 .card-4 h1 {
     font-size: 25px;
@@ -387,15 +337,7 @@
     background-position: center;
 }
 
-.card-5::before {
-    content: ""; /* Cria um pseudo-elemento antes do conteúdo */
-    position: absolute; /* Posicionamento absoluto em relação ao container pai */
-    width: 200px;
-    height: 400px;
-    background-color: rgba(255, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
-    border-radius: 20px; /* Mesmo raio de borda que o container pai */
-    z-index: 1; /* Coloca a sombra acima do conteúdo */
-}
+
 
 .card-5 h1 {
     font-size: 25px;
@@ -415,7 +357,7 @@
     
     .back {
         width: 100%;
-        height: 2400px;
+        height: 2650px;
     }
         
     .categorias-caption {
@@ -439,15 +381,7 @@
         font-size: 30px;
     }
     
-    .card-1::before {
-        content: ""; /* Cria um pseudo-elemento antes do conteúdo */
-        position: absolute; /* Posicionamento absoluto em relação ao container pai */
-        width: 300px;
-        height: 250px;
-        background-color: rgba(255, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
-        border-radius: 20px; /* Mesmo raio de borda que o container pai */
-        z-index: 1; /* Coloca a sombra acima do conteúdo */
-    }
+    
     
     .card-2 {
         width: 300px;
@@ -461,17 +395,7 @@
         font-size: 30px;
     }
     
-    .card-2::before {
-        content: ""; /* Cria um pseudo-elemento antes do conteúdo */
-        position: absolute; /* Posicionamento absoluto em relação ao container pai */
-        width: 300px;
-        height: 250px;
-        margin-left: 50px;
-        margin-top: 642px;
-        background-color: rgba(255, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
-        border-radius: 20px; /* Mesmo raio de borda que o container pai */
-        z-index: 1; /* Coloca a sombra acima do conteúdo */
-    }
+   
     
     .card-3 {
         width: 300px;
@@ -480,16 +404,7 @@
         background-size: auto;
     }
     
-    .card-3::before {
-        content: ""; /* Cria um pseudo-elemento antes do conteúdo */
-        position: absolute; /* Posicionamento absoluto em relação ao container pai */
-        width: 300px;
-        height: 250px;
-        margin-left: 0px;
-        background-color: rgba(255, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
-        border-radius: 20px; /* Mesmo raio de borda que o container pai */
-        z-index: 1; /* Coloca a sombra acima do conteúdo */
-    }
+ 
     
     .card-3 h1 {
         margin-top: 260px;
@@ -502,16 +417,7 @@
         margin-left: 40px;
     }
     
-    .card-4::before {
-        content: ""; /* Cria um pseudo-elemento antes do conteúdo */
-        position: absolute; /* Posicionamento absoluto em relação ao container pai */
-        width: 300px;
-        height: 250px;
-        margin-left: 0px;
-        background-color: rgba(255, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
-        border-radius: 20px; /* Mesmo raio de borda que o container pai */
-        z-index: 1; /* Coloca a sombra acima do conteúdo */
-    }
+  
     
     .card-4 h1 {
         margin-top: 260px;
@@ -530,17 +436,7 @@
         font-size: 28px;
     }
     
-    .card-5::before {
-        content: ""; /* Cria um pseudo-elemento antes do conteúdo */
-        position: absolute; /* Posicionamento absoluto em relação ao container pai */
-        width: 300px;
-        height: 250px;
-        margin-left: 0px;
-        background-color: rgba(255, 0, 0, 0.5); /* Cor vermelha com 50% de transparência */
-        border-radius: 20px; /* Mesmo raio de borda que o container pai */
-        z-index: 1; /* Coloca a sombra acima do conteúdo */
-    }
-    
+   
 }
 
 /* Container Circular */
@@ -696,13 +592,17 @@
 
 
 
-/* .hero {
-  
-} */
+.hero {
+    width: 100%;
+}
 
 .container {
-    margin-left: -20px;
-    margin-top: 900px;
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin-top: 250%;
+    margin-right: 100px;
 }
 
 .center-image {
@@ -910,10 +810,11 @@
 
 .missao {
     display: flex;
-    width: 350px;
-    height: 280px;
-    margin:20px;
-    margin-top: 80px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin: 10%;
+    margin-top: 120px;
 }
 
 .missao-texto {
@@ -921,9 +822,11 @@
 }
 
 .missao-texto p {
-    font-size: 14px;
-    width: 300px;
-    margin-left: 25px;
+    font-size: 13px ;
+    width: auto;
+    text-align: center;
+    margin: 20px;
+
 }
 
 }
