@@ -25,13 +25,34 @@ export default function Footer() {
            <div className='fp3'>
             <h1 className='fp3-title'>ENDEREÇOS</h1>
            <div className="local">
-                    <a href=""><h1>Fortaleza - CE</h1></a>
-                    <a href=""><h1>Barbalha - CE</h1></a>
-                    <a href=""><h1>Teresina - PI - Unidade Pedro de Freitas</h1></a>
-                    <a href=""><h1>Teresina - PI - Unidade Kennedy</h1></a>
-                    <a href=""><h1>Mossoró - RN</h1></a>
-                    <a href=""><h1>São Luís - MA</h1></a>
-                    <a href=""><h1>Petrolina - PE</h1></a>
+                    <a href="">
+                        <h1>Fortaleza - CE</h1>
+                        <p>Rodovia BR-116, 1854,Cajazeiras.</p>
+                    </a>
+                    <a href="">
+                        <h1>Barbalha - CE</h1>
+                        <p>Av.Leão Sampaio, 4510 Mata dos Dudas.</p>
+                    </a>
+                    <a href="">
+                        <h1>Teresina - PI - Unidade Pedro de Freitas</h1>
+                        <p>Av.Pedro Freitas, 1555, São Pedro.</p>
+                    </a>
+                    <a href="">
+                        <h1>Teresina - PI - Unidade Kennedy</h1>
+                        <p>Rua Comandante Área Leão, 09, São Cristovão.</p>    
+                    </a>
+                    <a href="">
+                        <h1>Mossoró - RN</h1>
+                        <p>Av.Wilson Rosado, 1798, Nova Betânia.</p>
+                    </a>
+                    <a href="">
+                        <h1>São Luís - MA</h1>
+                        <p>Rua Oito, 01, Distrito Insdustrial</p>
+                    </a>
+                    <a href="">
+                        <h1>Petrolina - PE</h1>
+                        <p>Av. Deputado Ulisses Guimarães, 601, Portal da Cidade</p>
+                    </a>
                 </div>
            </div>
            
@@ -50,13 +71,25 @@ export default function Footer() {
                     <h1>Seg - Sex : 07:30 ás 12:00 - 13:15 ás 17:33</h1>
                 </div>
                 <div className='fp4-icons'>
-                    <i className='fa-brands fa-instagram'></i>
-                    <i className='fa-brands fa-linkedin'></i>
-                    <i className='fa-brands fa-whatsapp'></i>
-                    <i className='fa-brands fa-facebook'></i>
+                    <a href="https://www.instagram.com/redemaquinas/">
+                        <i className='fa-brands fa-instagram'></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/66842664/admin/feed/posts/">
+                        <i className='fa-brands fa-linkedin'></i>
+                    </a>
+                    <a href="">
+                        <i className='fa-brands fa-whatsapp'></i>
+                    </a>
+                    <a href="https://www.facebook.com/redemaquinass">
+                        <i className='fa-brands fa-facebook'></i>
+                    </a>
+                    <a href="https://www.youtube.com/@redemaquinas7693">
+                    <i className="fa-brands fa-youtube"></i>
+                    </a>
                 </div>
             </div>
            </div>
+           
            
         </footer>
            <div className="agencia">

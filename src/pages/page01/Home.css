@@ -448,16 +448,17 @@
 }
 
 .container {
-    padding-top: 100px;
+    margin-top: 200px;
     display: flex;
+    margin-left: 10%;
 }
 
 .coluna-1 {
-    margin-left: -700px;
-    margin-top: -30px;
+    margin-left: -680px;
+    margin-top: -0px;
 }
 .div1 {
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .div1 h1 {
@@ -476,7 +477,7 @@
 
 .div2 {
     margin-top: 150px;
-    margin-left: 0px;
+    margin-left: -50px;
 }
 
 .div2 h1 {
@@ -496,7 +497,7 @@
 
 .div3 {
     margin-top: 150px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .div3 h1 {
     font-size: 25px;
@@ -514,8 +515,8 @@
 }
 
 .coluna-2 {
-    margin-left: 600px;
-    margin-top: -30px;
+    margin-left: 550px;
+    margin-top: 10px;
 }
 
 .div4 {
@@ -573,10 +574,10 @@
 }
 .center-image {
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     display: flex;
-    margin-left: 350px;
+    margin-left: 280px;
 }
 
 .div1, .div2, .div3, .div4, .div5, .div6 {
@@ -586,7 +587,9 @@
     border-radius: 20px;   
 }
 
-/* Categorias - Responsivo */
+
+
+/* Container Circular - Responsivo */
 
 @media screen and (max-width: 730px) {
 
@@ -600,9 +603,8 @@
     /* margin-left: 20px; */
     display: flex;
     justify-content: center;
-    width: 65%;
+    width: 60%;
     margin-top: 250%;
-    margin-right: 100px;
 }
 
 .center-image {
@@ -677,7 +679,8 @@
 }
 
 .coluna-2 {
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-top: -2px;
 }
 
 .div4 {

@@ -8,36 +8,30 @@
     height: 1100px;
 }
 
-.search-container {
-    padding-top: 50px;
+.valor {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
 }
 
-.search-container h1 {
-    text-align: center;
-    font-family: Poppins;
-    font-weight: 600;
-    color: black;
-}
-
-.search-container input {
-    margin-top: 30px;
-    margin-left: 500px;
-    border: none;
-    width: 300px;
-    height: 50px;
-    border-radius: 10px 0 0 10px;
-    text-align: center;
-}
-
-.search-container button {
-    width: 80px;
-    height: 50px;
+.valor button {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
     border: none;
     background: red;
+}
+
+.valor a {
+    text-decoration: none;
     color: #fff;
-    border-radius: 0 10px 10px 0px;
     font-family: Poppins;
-    font-weight: 600;
+    font-weight: bold;
+}
+
+.valor button:hover {
+    cursor: pointer;
+    text-shadow: 0 0 8px;
 }
 
 .lista-categorias {
