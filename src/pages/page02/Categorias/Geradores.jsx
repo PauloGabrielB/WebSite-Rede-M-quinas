@@ -27,10 +27,8 @@ export default function Geradores() {
 
         <section className="geradores">
 
-        <div className="search-container">
-            <h1>Buscar Equipamento</h1>
-            <input type="text" id="search-input" className="search-input" placeholder="Digite o nome do Equipamento"/>
-            <button id="search-button" className="search-button">Buscar</button>
+        <div className="valor">
+        <button><a href="https://api.whatsapp.com/send?phone=5585999220071">Saiba Mais</a></button>
         </div>
 
         

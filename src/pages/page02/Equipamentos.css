@@ -336,6 +336,10 @@
 
 @media screen and (max-width: 730px) {
 
+    .valor {
+        margin-top: 30px;
+    }
+
     .tela-toda {
         overflow: hidden;
     }

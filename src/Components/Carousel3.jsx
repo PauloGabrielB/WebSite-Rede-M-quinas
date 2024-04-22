@@ -28,7 +28,7 @@ const contentStyle = {
         <img className='img1' src={img2} alt=""/>
         <div className="caption-1">
             <h3>Equipamentos para todas as fases da sua obra.</h3>
-            <button className='btnc'>Orçamento</button>
+            <button><a href="https://api.whatsapp.com/send?phone=5585999220071">Saiba Mais</a></button>
         </div>
         </div>
 
@@ -36,7 +36,7 @@ const contentStyle = {
         <img className='img2' src={pg1} alt="" />
         <div className="caption-2">
             <h1>Equipamentos de Ponta</h1>
-            <button>Saiba Mais</button>
+            <button><a href="https://api.whatsapp.com/send?phone=5585999220071">Saiba Mais</a></button>
         </div>
         </div>
 
@@ -44,7 +44,7 @@ const contentStyle = {
         <img className='img3' src={rrm} alt="" />
         <div className="caption-3">
             <h1>Transporte de Equipamento</h1>
-            <button>Saiba Mais</button>
+            <button><a href="https://api.whatsapp.com/send?phone=5585999220071">Saiba Mais</a></button>
         </div>
         </div>
 

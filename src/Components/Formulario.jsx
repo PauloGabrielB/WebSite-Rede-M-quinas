@@ -79,10 +79,10 @@ export default function Formulario() {
             </form>
 
             <div className="social-icons">
-                <a className='wsp-ico' target='blank' href="https://api.whatsapp.com/send?phone=5585991856914">
+                <a className='wsp-ico' target='blank' href="https://api.whatsapp.com/send?phone=5585999220071">
                 <FaWhatsapp /> WhatsApp 
                 </a>
-                <a className='insta-ico' target='blank' href="https://www.instagram.com/pagcode">
+                <a className='insta-ico' target='blank' href="https://www.instagram.com/redemaquinas">
                 <FaInstagram /> Instagram
                 </a>
             </div>

@@ -1,5 +1,6 @@
 import logorm from '../img/logorm.png'
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { Link } from 'react-router-dom';
 
 
 export default function Footer() {
@@ -9,47 +10,59 @@ export default function Footer() {
         <footer className="footer">
            <div className='fp1'>
             <img src={logorm} alt="" />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque tempore totam illum iusto corporis sit</p>
+            <p>A Rede Máquinas está comprometida com a implementação e o cumprimento de sua Visão, Missão e Valores, buscando sempre a excelência em seus serviços e a satisfação de seus clientes.</p>
            </div>
            <div className='fp2'>
             <h1>PÁGINAS</h1>
                 <div className="flinks">
-                    <a href="">Home</a>
-                    <a href="">Equipamentos</a>
-                    <a href="">Sobre</a>
-                    <a href="">Contato</a>
-                    <a href="">Trabalhe Conosco</a>
-                    <a href="">SAC</a>
+                <Link to={'/'}>
+                        <li className='nav-item'><a className='nav-link' href="#home">Home</a></li>
+                </Link>
+                <Link to={'/Equipamentos'}>
+                            <li className='nav-item'><a className='nav-link' href="#equipamentos">Equipamentos</a></li>
+                </Link>
+                <Link to={'/Sobre'}>
+                    <li className='nav-item'><a className='nav-link' href="#sobre">Sobre</a></li>
+                </Link>
+                <Link to={'/Contato'}>
+                    <li className='nav-item'><a className='nav-link' href="#contato">Contato</a></li>
+                </Link>
+                <Link to={'/Trabalhe'}>
+                    <li className='nav-item'><a className='nav-link' href="#contato">Trabalhe Conosco</a></li>
+                </Link>
+                <Link to={'/Sac'}>
+                    <li className='nav-item'><a className='nav-link' href="#contato">SAC</a></li>
+                </Link>
                 </div>
            </div>
            <div className='fp3'>
             <h1 className='fp3-title'>ENDEREÇOS</h1>
            <div className="local">
-                    <a href="">
+                    <a href="https://api.whatsapp.com/send?phone=5585999220071">
                         <h1>Fortaleza - CE</h1>
                         <p>Rodovia BR-116, 1854,Cajazeiras.</p>
                     </a>
-                    <a href="">
+                    <a href="https://api.whatsapp.com/send?phone=5588992113296">
                         <h1>Barbalha - CE</h1>
                         <p>Av.Leão Sampaio, 4510 Mata dos Dudas.</p>
                     </a>
-                    <a href="">
+                    <a href="https://api.whatsapp.com/send?phone=5586999880095">
                         <h1>Teresina - PI - Unidade Pedro de Freitas</h1>
                         <p>Av.Pedro Freitas, 1555, São Pedro.</p>
                     </a>
-                    <a href="">
+                    <a href="https://api.whatsapp.com/send?phone=5586994392660">
                         <h1>Teresina - PI - Unidade Kennedy</h1>
                         <p>Rua Comandante Área Leão, 09, São Cristovão.</p>    
                     </a>
-                    <a href="">
+                    <a href="https://api.whatsapp.com/send?phone=5584994413306">
                         <h1>Mossoró - RN</h1>
                         <p>Av.Wilson Rosado, 1798, Nova Betânia.</p>
                     </a>
-                    <a href="">
+                    <a href="https://api.whatsapp.com/send?phone=5598984067957">
                         <h1>São Luís - MA</h1>
                         <p>Rua Oito, 01, Distrito Insdustrial</p>
                     </a>
-                    <a href="">
+                    <a href="https://api.whatsapp.com/send?phone=5587992018145">
                         <h1>Petrolina - PE</h1>
                         <p>Av. Deputado Ulisses Guimarães, 601, Portal da Cidade</p>
                     </a>
@@ -77,7 +90,7 @@ export default function Footer() {
                     <a href="https://www.linkedin.com/company/66842664/admin/feed/posts/">
                         <i className='fa-brands fa-linkedin'></i>
                     </a>
-                    <a href="">
+                    <a href="https://api.whatsapp.com/send?phone=5585999220071">
                         <i className='fa-brands fa-whatsapp'></i>
                     </a>
                     <a href="https://www.facebook.com/redemaquinass">

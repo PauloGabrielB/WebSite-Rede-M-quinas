@@ -6,7 +6,7 @@
 
 .sobre {
     width: 100%;
-    height: 1789px;
+    height: 1950px;
     background-image: url('./img//back.png');
     background-size: cover;
 }
@@ -27,7 +27,7 @@
     margin-left: 125px;
     padding-top: 50px;
     font-family: Poppins;
-    font-size: 23px;
+    font-size: 18px;
 }
 
 .container-sobre img {
@@ -143,10 +143,13 @@
 
 
 @media  screen and (max-width: 730px) {
+
+    .tudo-sobre {
+        overflow: hidden;
+    }
     
     .sobre {
-        height: 2085px;
-        overflow: hidden;
+        height: 2600px;
     }
 
     .container-sobre p {

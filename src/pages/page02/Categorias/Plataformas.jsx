@@ -24,12 +24,9 @@ export default function Plataformas() {
 
         <section className="hero2">
 
-        <div className="search-container">
-            <h1>Buscar Equipamento</h1>
-            <input type="text" id="search-input" className="search-input" placeholder="Digite o nome do Equipamento"/>
-            <button id="search-button" className="search-button">Buscar</button>
+        <div className="valor">
+        <button><a href="https://api.whatsapp.com/send?phone=5585999220071">Saiba Mais</a></button>
         </div>
-
         
         <div className="App">
         <div className="categorias-containers">
@@ -78,7 +75,9 @@ export default function Plataformas() {
             <Link to={'/Terraplanagem'}>
                 <li className='category-item' ><a href="">Terra Planagem</a></li>
             </Link>
-            <li className='category-item' ><a href="">Torres de Iluminação</a></li>
+            <Link to={'/Torre'}>
+                <li className='category-item' ><a href="">Torres de Iluminação</a></li>
+            </Link>
             </ul>
             </div>
             

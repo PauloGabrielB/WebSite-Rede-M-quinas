@@ -37,7 +37,6 @@ export default function Equipamentos() {
                     <button><a href="">Orçamento</a></button>
                 </div>
 
-                
                 <div className="App">
                 <div className="categorias-containers">
                     <div className="lista-categorias">
