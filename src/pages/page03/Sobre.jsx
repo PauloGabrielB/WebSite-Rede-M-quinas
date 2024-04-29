@@ -1,6 +1,5 @@
 import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
-import Carosel3 from '../../Components/Carousel3'
 import './Sobre.css'
 
 import { Link } from 'react-router-dom';
@@ -21,9 +20,9 @@ export default function Sobre() {
         <Header />
 
         <section className='tudo-sobre'>
-        <Carosel3 />
 
 <section className="sobre">
+    <h1>Sobre Nós</h1>
   <div className="container-sobre">
       <p>A Rede Máquinas é uma empresa voltada para a locação de equipamentos para a construção civil e indústria em geral. Desde a sua fundação, há mais de três décadas, a empresa oferece equipamentos de alta qualidade, priorizando sempre a excelência técnica e a satisfação das reais necessidades de seus clientes.
       Em 1994, atenta às exigências do mercado, ampliou a sua atuação visando atender as diversas outras atividades da indústria, dando continuidade a sua política de preços, diversificação de estoque, qualidade em serviços e produtos. Com isto solidificou sua participação nos diversos setores em que atuava, conquistando novos clientes e parceiros, através de conceitos adquiridos de seriedade e confiança.

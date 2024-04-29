@@ -3,7 +3,7 @@
 .container-sac {
     background-image: url('./img/back.png');
     background-size: cover;
-    height: 1400px;
+    height: 1500px;
 }
 
 .sac-img img {
@@ -13,17 +13,20 @@
 .container-sac h2 {
     font-family: Poppins;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     margin-top: 30px;
-    color: #ff0323;
+    color: #d42027;
+    text-shadow: 0 0 2px;
 }
 
 .container-sac h3 {
     font-family: Poppins;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 60px;
     text-align: center;
+    color: #d42027;
+    text-shadow: 0 0 2px;
 }
 
 @media screen and (max-width: 730px) {

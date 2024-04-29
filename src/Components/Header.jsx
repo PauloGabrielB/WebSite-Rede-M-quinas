@@ -45,6 +45,24 @@ export default function Header() {
                     </ul>
                 </div>
 
+                <div className='nav-icons'>
+                    <a href="https://www.instagram.com/redemaquinas/">
+                        <i className='fa-brands fa-instagram'></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/66842664/admin/feed/posts/">
+                        <i className='fa-brands fa-linkedin'></i>
+                    </a>
+                    <a href="https://linktr.ee/mktrede">
+                        <i className='fa-brands fa-whatsapp'></i>
+                    </a>
+                    <a href="https://www.facebook.com/redemaquinass">
+                        <i className='fa-brands fa-facebook'></i>
+                    </a>
+                    <a href="https://www.youtube.com/@redemaquinas7693">
+                    <i className="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+
                 <div className="mobile-menu-icon">
                     <button onClick={toggleMenu}>
                         <img className='icon-menu' src={isMenuOpen ? closeMenu : menu} alt="" />

@@ -1,7 +1,7 @@
 
 .contato {
     width: 100%;
-    height: 1600px;
+    height: 2000px;
     background-image: url('/src/pages/page04/img/back.png');
     background-size: cover;
 }
@@ -9,6 +9,7 @@
 .contato-img {
     width: 100%;
     position: relative;
+   
 }
 
 .contato-img::before {
@@ -23,35 +24,40 @@
 }
 
 .contato-img img {
-    width: 90%;
-    margin-left: 50px;
-    margin-top: 0px;
+    width: 100%;
+    /* margin-left: 50px; */
+    margin-top: 50px;
+    transform: scale(1.2);
 }
 
 .contato-title h1 {
-    font-size: 50px;
+    font-size: 55px;
     font-family: Poppins;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0, 0, 0);
     padding-top: 100px;
     text-align: center;
-    margin-top: -500px;
-    width: 800px;
-    margin-left: 300px;
+    top: 20px;
+    width: 1000px;
+    margin-left: 200px;
+    z-index: 2000;
+    position: absolute;
 }
 
 
 .body-contact h1 {
-    font-size: 50px;
+    font-size: 80px;
     font-family: Poppins;
-    font-weight: 800;
+    font-weight: bold;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 150px;
     color: black;
 }
 
 .body-contact h3 {
     font-family: Poppins;
+    font-weight: bold;
     font-size: 30px;
     text-align: center;
     color: black;

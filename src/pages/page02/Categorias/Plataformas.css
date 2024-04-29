@@ -1,6 +1,15 @@
 
 .hero2 {
     height: 1250px;
+    margin-top: 0;
+
+}
+
+@media screen and (max-width: 730px) {
+
+.valor {
+    margin-top: 0;
+    padding-top: 30px;
 }
 
 .divprod65 {
@@ -28,4 +37,5 @@
     font-family: Poppins;
     font-weight: 600;
     font-size: 18px;
+}
 }

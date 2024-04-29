@@ -4,16 +4,14 @@ import Carousel from '../../Components/Carousel'
 import Footer from '../../Components/Footer'
 
 
+
 import img10 from './img/img10.png'
 import img11 from './img/rlogo.png'
-import pg1 from './img/pg1.jpg'
-import cc1 from './img/cc1.jpg'
-import c12 from './img/c12.png'
+
 
 
 export default function Home() {
 
-  
     return (
         <>
         <Header />
@@ -62,10 +60,8 @@ export default function Home() {
           </section>
           </div>
           
-            <Footer />
+        <Footer />
         </section> 
-
-        
         </>
     )
 }

@@ -21,34 +21,45 @@ const contentStyle = {
       };
 
     return (
-        <>
-        <Carousel className='carousel' afterChange={onChange}>
-
-        <div className='carousel-1'>
-        <img className='img1' src={img2} alt=""/>
-        <div className="caption-1">
-            <h3>Equipamentos para todas as fases da sua obra.</h3>
-            <button><a href="https://api.whatsapp.com/send?phone=5585999220071">Saiba Mais</a></button>
+      <>
+      <div id="carouselExampleDark" className="carousel carousel-dark slide">
+        <div className="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+        <div className="carousel-inner">
+          <div className="carousel-item active" data-bs-interval="10000">
+            <img src={img2} className="d-block w-100" alt="..."/>
+            <div className="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div className="carousel-item" data-bs-interval="2000">
+            <img src={pg1} className="d-block w-100" alt="..."/>
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img src={rrm} className="d-block w-100" alt="..."/>
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
         </div>
-
-        <div className='carousel-2'>
-        <img className='img2' src={pg1} alt="" />
-        <div className="caption-2">
-            <h1>Equipamentos de Ponta</h1>
-            <button><a href="https://api.whatsapp.com/send?phone=5585999220071">Saiba Mais</a></button>
-        </div>
-        </div>
-
-        <div className='carousel-3'>
-        <img className='img3' src={rrm} alt="" />
-        <div className="caption-3">
-            <h1>Transporte de Equipamento</h1>
-            <button><a href="https://api.whatsapp.com/send?phone=5585999220071">Saiba Mais</a></button>
-        </div>
-        </div>
-
-        </Carousel>
-        </>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
+      </div>
+      </>
     )
   }
