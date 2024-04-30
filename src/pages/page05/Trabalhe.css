@@ -5,41 +5,97 @@
 
 .trabalhe-img {
     width: 100%;
-    background: #ff0323;
+    background: #d42027;
     height: 300px;
 }
 
 .trabalhe-img img {
-    width: 200px;
-    display: flex;
+    width: 300px;
+    margin-top: 44px;
+    filter: drop-shadow(0 0 18px  rgba(0, 0, 0, 0.705));
+    /* display: none; */
+    margin-left: 50px;
 }
 
 .trabalhe-img h1 {
     font-family: Poppins;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 40px;
     color: #fff;
     text-align: center;
-    margin-top: -120px;
+    margin-top: -200px;
+    margin-left: 50px;
+    text-shadow: 0 0 8px black;
 }
 
 .trabalhe-img h2 {
     font-family: Poppins;
-    font-weight: 500;
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 40px;
     color: #fff;
     text-align: center;
+    text-shadow: 0 0 8px black;
+}
+
+.trabalhe-img button {
+    width: 150px;
+    height: 40px;
+    margin-left: 600px;
+    border: 3px solid white;
+    background: #0ec244;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.wicon {
+    font-size: 20px;
+    margin-right: 5px;
 }
 
 @media screen and (max-width: 730px) {
 
+    .trabalhe-img {
+       width: 100%;
+    }
+
     .trabalhe-img h1 {
-        font-size: 26px;
-        margin-top: -40px;
+        font-size: 17px;
+        margin-top: -200px;
+        margin-left: 0px;
+    }
+
+    .trabalhe-img h2 {
+        font-size: 20px;
+        margin-left: 150px;
+        margin-top: 20px;
     }
 
     .trabalhe-img img {
-        margin-left: 100px;
+        margin-left: 0;
         padding-top: 10px;
+        width: 200px;
+        margin-top: 120px;
+        
+    }
+
+    .trabalhe-img button {
+        width: 150px;
+        height: 50px;
+        margin-left: 200px;
+        margin-top: 10px;
+        border: 3px solid white;
+        background: #0ec244;
+        border-radius: 10px;
+        font-family: Poppins;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .wicon {
+        font-size: 30px;
+        color: #fff;
+        margin-right: 5px;
     }
 }

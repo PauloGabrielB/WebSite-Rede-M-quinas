@@ -10,6 +10,7 @@ export default function Sac() {
 
     return (
         <>
+        <section className="tela-toda">
         <Header />
         <section className="container-sac">
         <div className="sac-img">
@@ -20,6 +21,8 @@ export default function Sac() {
         <Formulario />
         </section>
         <Footer />
+        </section>
+        
         </>
     )
 }

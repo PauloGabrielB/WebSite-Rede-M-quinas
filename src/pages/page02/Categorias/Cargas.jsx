@@ -27,7 +27,7 @@ export default function Cargas() {
         <section className="cargas">
 
         <div className="valor">
-        <button><a href="https://api.whatsapp.com/send?phone=5585999220071">Saiba Mais</a></button>
+                    <button><a href="https://linktr.ee/mktrede">Orçamento</a></button>
         </div>
 
         

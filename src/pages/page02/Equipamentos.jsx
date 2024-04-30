@@ -25,8 +25,9 @@ import prod9 from './img/prod9.png'
 export default function Equipamentos() {
 
     return (
-      
-        <section className="tela-toda">
+
+      <>
+       <section className="tela-toda">
           <Header />
           
             <Carousel2 />
@@ -34,7 +35,7 @@ export default function Equipamentos() {
                 <section className="hhero">
 
                 <div className="valor">
-                    <button><a href="">Orçamento</a></button>
+                    <button><a href="https://linktr.ee/mktrede">Orçamento</a></button>
                 </div>
 
                 <div className="App">
@@ -144,6 +145,9 @@ export default function Equipamentos() {
 
                 <Footer />
         </section>
+      </>
+      
+        
         
 
     

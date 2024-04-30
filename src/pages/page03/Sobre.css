@@ -4,6 +4,10 @@
     margin-bottom: 40px;
 }    
 
+.tudo-sobre {
+    overflow: hidden;
+}
+
 .sobre {
     width: 100%;
     height: 2000px;

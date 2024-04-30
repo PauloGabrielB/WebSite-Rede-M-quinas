@@ -12,6 +12,7 @@ export default function Contato() {
     return (
 
         <>
+        <section className="tela-toda">
         <Header />
 
         <section className="contato">
@@ -31,9 +32,11 @@ export default function Contato() {
 
         </section>
 
-       
+
 
         <Footer />
+        </section>
+        
         </>
     )
 }

@@ -2,6 +2,8 @@ import '../page01/Home.css'
 import Header from '../../Components/Header'
 import Carousel from '../../Components/Carousel' 
 import Footer from '../../Components/Footer'
+import CardSlider from '../../Components/CardSlider'
+
 
 
 
@@ -23,7 +25,7 @@ export default function Home() {
             <div className="title">
               <h1>Categorias</h1>
             </div>
-            <div className="categorias-caption">
+            {/* <div className="categorias-caption">
               <div className="cards-caption">
                 <div className='card-1'><a href=""></a><h1>Containers</h1></div>
                 <div className='card-2'><a href=""></a><h1>Ferragens</h1></div>
@@ -31,7 +33,10 @@ export default function Home() {
                 <div className='card-4'><a href=""></a><h1>Máquinas Pesadas</h1></div>
                 <div className='card-5'><a href=""></a><h1>Plataformas Elevatorias</h1></div>
               </div>
-            </div>
+              
+              
+            </div> */}
+            <CardSlider />
           </section>
 
           <section className="hero">
