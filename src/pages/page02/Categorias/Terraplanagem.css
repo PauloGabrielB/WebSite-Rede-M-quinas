@@ -1,15 +1,15 @@
 
 .terraplanagem {
-    background-image: url('../Categorias/img/back.png');
+    background-image: url('../Categorias/img/backblack.png');
+    background-size: cover;
     width: 100%;
-    height: 1600px;
+    height: 1500px;
 }
 
 @media screen and (max-width: 730px) {
     
 
     .terraplanagem {
-        background-image: url('../Categorias/img/back.png');
         margin-top: 0;
         width: 100%;
         height: 1950px;

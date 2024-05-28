@@ -40,9 +40,8 @@ export default function Formulario() {
         
     
          <section id='contato' className='Contato'>
-            <h1 className="contato-h1">Contato</h1>
             <form className='form-container' onSubmit={sendEmail}>
-            <div>
+            <div className='dff'>
                 <label htmlFor="nome">Nome:</label>
                 <input
                 className='nome-input'
@@ -52,7 +51,7 @@ export default function Formulario() {
                 onChange={(event) => setNome(event.target.value)}
                 />
             </div>
-            <div>
+            <div className='dff'>
                 <label htmlFor="email">Email:</label>
                 <input
                 className='email-input'
@@ -62,11 +61,11 @@ export default function Formulario() {
                 onChange={(event) => setEmail(event.target.value)}
                 />
             </div>
-            <div className="mb-3">
+            <div className="mb-3 dff">
               <label  className="form-label">Arquivo</label>
               <input className="form-control" type="file" id="formFile"/>
             </div>
-            <div>
+            <div className='dff'>
                 <label htmlFor="mensagem">Mensagem:</label>
                 <textarea
                 className='textarea'

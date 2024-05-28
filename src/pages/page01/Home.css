@@ -4,14 +4,21 @@
 /* Home */
 .hoot {
     overflow: hidden;
+    background: #1a1a1a;
 }
+
 .carousel {
-    width: 100%;
-    height: 500px;
+    width: 80%;
+    height: 400px;
+    top: 50px;
+    margin-left: 140px;
+    margin-bottom: 80px;
 }
+
 .img1, .img2, .img3 {
     width: 100%;
-    height: 500px;
+    height: 400px;
+    border-radius: 10px;
 }
 
 .caption-1 {
@@ -66,7 +73,7 @@
     align-items: start;
 }
 
-.caption-2 h1 {
+.caption-2 h2 {
     font-family: Poppins;
     font-weight: bold;
     margin-top: 0px;
@@ -106,7 +113,7 @@
     font-family: Poppins;
     font-weight: bold;
     margin-top: 0px;
-    font-size: 70px;
+    font-size: 60px;
     text-shadow: 0 0 8px black;
 }
 
@@ -132,19 +139,22 @@
    
     .carousel {
         width: 100%;
-        height: 250px;
+        height: 200px;
+        margin-top: 4%;
+        margin-left: 0;
     }
         
     .img1, .img2, .img3 {
         display: flex;
         width: 100%;
-        height: 260px;
+        height: 200px;
+        border-radius: 0;
     }
 
     .caption-1 {
         position: absolute;
         top: 50%;
-        margin-left: 7.2%;
+        margin-left: 7.4%;
         transform: translate(-50%, -50%);
         text-align: center;
         color: white; /* cor do texto */
@@ -152,17 +162,14 @@
         width: 300px;
         height: 140px;
     }
-
     .caption-1 h2 {
         font-family: Poppins;
-        font-size: 20px;
-        text-align: center;
-        width: 90%;
-        margin-bottom: 40px;
-        font-size: 30px;
+        font-size: 22px;
+        color: #fff;
         margin-top: 20px;
+        margin-left: -30px;
+        margin-bottom: 40px;
     }
-
     .caption-1 button {
         width: 120px;
         height: 40px;
@@ -173,16 +180,15 @@
         font-size: 17px;
         font-family: Poppins;
         font-weight: 600;
-        align-items: center;
-        justify-content: center;
-        display: none;
-        
+        margin-top: 10px;
+        margin-left: 10px;
     }
+
 
     .caption-2 {
         position: absolute;
         top: 50%;
-        margin-left: 7.2%;
+        margin-left: 7.4%;
         transform: translate(-50%, -50%);
         text-align: center;
         color: white; /* cor do texto */
@@ -191,14 +197,14 @@
         height: 140px;
     }
 
-    .caption-2 h1 {
+    .caption-2 h2 {
         font-family: Poppins;
-        font-size: 20px;
+        font-weight: 600;
+        font-size: 22px;
         color: #fff;
-        margin-top: 50px;
-        margin-left: 20px;
+        margin-top: 30px;
+        margin-left: 10px;
     }
-
     .caption-2 button {
         width: 120px;
         height: 40px;
@@ -209,14 +215,14 @@
         font-size: 17px;
         font-family: Poppins;
         font-weight: 600;
-        margin-top: 20px;
-        margin-left: 28%;
+        margin-top: 10px;
+        margin-left: 10px;
     }
 
     .caption-3 {
         position: absolute;
         top: 50%;
-        margin-left: 7.2%;
+        margin-left: 7.4%;
         transform: translate(-50%, -50%);
         text-align: center;
         color: white; /* cor do texto */
@@ -229,7 +235,7 @@
         font-family: Poppins;
         font-size: 18px;
         color: #fff;
-        margin-top: 50px;
+        margin-top: 20px;
         margin-left: 20px;
     }
     .caption-3 button {
@@ -242,23 +248,34 @@
         font-size: 17px;
         font-family: Poppins;
         font-weight: 600;
-        margin-top: 20px;
-        margin-left: 28%;
+        margin-top: 10px;
+        margin-left: 15px;
     }
+    
 }
 
 /* Categorias */
 
 .back {
-    background-image: url('/src/pages/page01/img/back.png');
+    background-image: url('/src/pages/page01/img/backblack.png');
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
     background-position: center; /* Centraliza a imagem dentro do elemento */
+    height: 2600px;
+    z-index: 2;
 }
 
 .categorias {
     width: 100%; /* Largura do elemento */
     height: 500px; /* Altura do elemento */
     margin-bottom: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 1300px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
 }
 
 .title h1 {
@@ -267,6 +284,8 @@
     font-size: 50px;
     padding-top: 30px;
     text-align: center;
+    color: #fff;
+    text-shadow: 0 0 8px black;
 }
 
 .cards-caption {
@@ -388,7 +407,11 @@
     
     .back {
         width: 100%;
-        height: 1350px;
+        height: 1800px;
+    }
+
+    .categorias {
+        margin-top: -280px;
     }
         
     .categorias-caption {
@@ -472,16 +495,21 @@
 
 /* Container Circular */
 
-.hero {
-    
+
+.hero {    
     width: 100%; /* Largura do elemento */
-    height: 900px; /* Altura do elemento */
+    height: 900px; /* Altura do elemento */   
+    background-image: url('/src/pages/page01/img/backblack.png');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem dentro do elemento */
+    background-size: cover;
 }
 
 .container {
     margin-top: 70px;
     display: flex;
     margin-left: 10%;
+    
 }
 
 .coluna-1 {
@@ -856,7 +884,9 @@
 }
 
 .missao-texto p {
-    font-size: 13px ;
+    font-size: 15px ;
+    font-weight: 600;
+    font-family: Poppins;
     width: auto;
     text-align: center;
     margin: 20px;

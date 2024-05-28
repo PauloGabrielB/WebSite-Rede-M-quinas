@@ -29,10 +29,8 @@ export default function Maquinas() {
             
         <Header />
 
-<Carousel2 />
-
 <section className="maquinas">
-
+<Carousel2 />
 <div className="valor">
     <button><a href="https://linktr.ee/mktrede">Orçamento</a></button>
 </div>

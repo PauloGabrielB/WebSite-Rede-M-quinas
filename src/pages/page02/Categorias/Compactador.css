@@ -1,15 +1,15 @@
 
 .compactador {
-    background-image: url('../Categorias/img/back.png');
+    background-image: url('../Categorias/img/backblack.png');
     width: 100%;
-    height: 1100px;
+    height: 1400px;
 }
 
 @media screen and (max-width: 730px) {
     
 
     .compactador {
-        background-image: url('../Categorias/img/back.png');
+        background-image: url('../Categorias/img/backblack.png');
         margin-top: 0;
         width: 100%;
         height: 2680px;

@@ -26,9 +26,11 @@ export default function Betoneira() {
         
     <Header />
 
-    <Carousel2 />
+    
 
     <section className="betoneiras">
+
+    <Carousel2 />
 
     <div className="valor">
                 <button><a href="https://linktr.ee/mktrede">Orçamento</a></button>

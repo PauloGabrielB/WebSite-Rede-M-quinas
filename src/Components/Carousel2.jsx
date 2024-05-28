@@ -23,24 +23,24 @@ export default function Carousel2() {
       <Carousel ref={carouselRef} className='carousel'>
         <div className='carousel-1'>
           <img className='img1' src={img14} alt="" />
-          <div className="caption-1">
-            <h2>Equipamentos de Ponta</h2>
+          <div className="cap-1">
+            <h2 className='ch1'>Equipamentos de Ponta</h2>
             <button><a href="https://linktr.ee/mktrede">Saiba Mais</a></button>
           </div>
         </div>
 
         <div className='carousel-2'>
-          <img className='img2' src={cimg1} alt="" />
-          <div className="caption-2">
-            <h1>Equipamentos de Ponta</h1>
+          <img className='img2' src={cimg3} alt="" />
+          <div className="cap-2">
+            <h2>Transporte de Equipamentos</h2>
             <button><a href="https://linktr.ee/mktrede">Saiba Mais</a></button>
           </div>
         </div>
 
         <div className='carousel-3'>
-          <img className='img3' src={cimg3} alt="" />
-          <div className="caption-3">
-            <h1>Transporte de Equipamento</h1>
+          <img className='img3' src={cimg1} alt="" />
+          <div className="cap-3">
+            <h1>Equipe Especializada</h1>
             <button><a href="https://linktr.ee/mktrede">Saiba Mais</a></button>
           </div>
         </div>

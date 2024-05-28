@@ -9,7 +9,7 @@ export default function Footer() {
         <>
         <footer className="footer">
            <div className='fp1'>
-           <img src={logorm} alt="" />
+            <img src={logorm} alt="" />
             <p>A Rede Máquinas está comprometida com a implementação e o cumprimento de sua Visão, Missão e Valores, buscando sempre a excelência em seus serviços e a satisfação de seus clientes.</p>
            </div>
            <div className='fp2'>

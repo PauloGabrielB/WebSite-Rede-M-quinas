@@ -23,10 +23,8 @@ export default function Terraplanagem() {
         <section className="tela-toda">
             <Header />
 
-<Carousel2 />
-
 <section className="terraplanagem">
-
+<Carousel2 />
 <div className="valor">
     <button><a href="https://linktr.ee/mktrede">Orçamento</a></button>
 </div>

@@ -1,6 +1,7 @@
 
 .torre {
-    background-image: url('../Categorias/img/back.png');
+    background-image: url('../Categorias/img/backblack.png');
+    background-size: cover;
     width: 100%;
     height: 1100px;
 }
@@ -9,7 +10,6 @@
     
 
     .torre {
-        background-image: url('../Categorias/img/back.png');
         margin-top: 0;
         width: 100%;
         height: 1250px;

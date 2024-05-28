@@ -24,10 +24,10 @@ export default function Geradores() {
             
         <Header />
 
-<Carousel2 />
+
 
 <section className="geradores">
-
+<Carousel2 />
 <div className="valor">
     <button><a href="https://linktr.ee/mktrede">Orçamento</a></button>
 </div>

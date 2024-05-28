@@ -30,10 +30,10 @@ export default function Equipamentos() {
        <section className="tela-toda">
           <Header />
           
-            <Carousel2 />
+            
 
                 <section className="hhero">
-
+                <Carousel2 />
                 <div className="valor">
                     <button><a href="https://linktr.ee/mktrede">Orçamento</a></button>
                 </div>

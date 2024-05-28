@@ -2,7 +2,7 @@
 .contato {
     width: 100%;
     height: 2000px;
-    background-image: url('/src/pages/page04/img/back.png');
+    background-image: url('/src/pages/page04/img/backblack.png');
     background-size: cover;
 }
 
@@ -19,7 +19,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(255, 0, 0, 0.411)); /* Definição do degradê */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(255, 0, 0, 0.678)); /* Definição do degradê */
     z-index: 1;
 }
 
@@ -52,7 +52,7 @@
     font-weight: bold;
     text-align: center;
     margin-top: 150px;
-    color: black;
+    color: #fff;
 }
 
 .body-contact h3 {
@@ -60,7 +60,7 @@
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    color: black;
+    color: #fff;
 }
 
 @media screen and (max-width: 730px) {
@@ -94,6 +94,5 @@
 
     .body-contact h3 {
         font-size: 20px;
-        text-shadow: 0 0 8px white;
     }
 }

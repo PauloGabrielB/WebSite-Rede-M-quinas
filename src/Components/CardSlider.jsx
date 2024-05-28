@@ -72,74 +72,75 @@ export default function CardSlider() {
 
   return (
     <section className="component-slider">
+      <span onClick={slideLeft} className={`btn ${currentPosition === slidesCount ? 'inactive' : ''}`}><IoIosArrowBack className='seta-back' /></span>
       <div id="slider-container" className="slider-container">
-        <span onClick={slideLeft} className={`btn ${currentPosition === slidesCount ? 'inactive' : ''}`}><IoIosArrowBack className='seta-back' /></span>
+        
         <div id="slider" className="slider" style={{marginLeft: `${currentMargin}%`}}>
 
         
           <div className="slide">
             <img src={simg1} alt="" />
-            <Link to={'/Equipamentos'}>
+            <Link to={'/Equipamentos'} style={{ textDecoration: 'none' }}>
                 <h1>Andaimes</h1>       
             </Link>
             </div>
           <div className="slide">
             <img src={simg2} alt="" />
-            <Link to={'/Betoneiras'}> 
+            <Link to={'/Betoneiras'} style={{ textDecoration: 'none' }}> 
             <h1>Betoneiras</h1>
             </Link>
           </div>
           <div className="slide simg3">
             <img src={simg3} alt="" />
-            <Link to={'/Geradores'}>
+            <Link to={'/Geradores'} style={{ textDecoration: 'none' }}>
             <h1>Geradores</h1>
             </Link>
           </div>
           <div className="slide simg4">
             <img src={simg4} alt="" />
-            <Link to={'/Compactador'}>
+            <Link to={'/Compactador'} style={{ textDecoration: 'none' }}>
             <h1>Compactador</h1>
             </Link>
           </div>
           <div className="slide simg5">
             <img src={simg5} alt="" />
-            <Link to={'/Plataformas'}>
+            <Link to={'/Plataformas'} style={{ textDecoration: 'none' }}>
               <h1>Plataformas</h1>
             </Link>
           </div>
-          <div className="slide">
+          <div className="slide simg6">
             <img src={simg6} alt="" />
-            <Link to={'/Compressores'}>
+            <Link to={'/Compressores'} style={{ textDecoration: 'none' }}>
               <h1>Compressores</h1>
             </Link>
           </div>
           <div className="slide">
             <img src={simg7} alt="" />
-            <Link to={'/Maquinas'}>
+            <Link to={'/Maquinas'} style={{ textDecoration: 'none' }}>
             <h1>Máquinas</h1>
             </Link>
           </div>
           <div className="slide">
             <img src={simg8} alt="" />
-            <Link to={'/Ferramentas'}>
+            <Link to={'/Ferramentas'} style={{ textDecoration: 'none' }}>
             <h1>Ferramentas</h1>
             </Link>
           </div>
           <div className="slide">
             <img src={simg9} alt="" />
-            <Link to={'/Cargas'}>
+            <Link to={'/Cargas'} style={{ textDecoration: 'none' }}>
             <h1>Cargas</h1>
             </Link>
           </div>
           <div className="slide simg10">
             <img src={simg10} alt="" />
-            <Link to={'/Terraplanagem'}>
+            <Link to={'/Terraplanagem'} style={{ textDecoration: 'none' }}>
             <h1>Terra Planagem</h1>
             </Link>
           </div>
         </div>
-        <span onClick={slideRight} className={`btn ${currentPosition === 0 ? 'inactive' : ''}`}><IoIosArrowForward className='seta-next' /></span>
       </div>
+        <span onClick={slideRight} className={`btn ${currentPosition === 0 ? 'inactive' : ''}`}><IoIosArrowForward className='seta-next' /></span>
     </section>
   );
 }

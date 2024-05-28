@@ -26,10 +26,10 @@ export default function Compressores() {
         <section className="tela-toda">
             <Header />
 
-<Carousel2 />
+
 
  <section className="compressor">
-
+ <Carousel2 />
  <div className="valor">
      <button><a href="https://linktr.ee/mktrede">Orçamento</a></button>
  </div>

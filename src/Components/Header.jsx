@@ -80,7 +80,7 @@ export default function Header() {
                     <i className="fa-brands fa-youtube"></i>
                     </a>
                 </div>
-
+                
                 <div className="mobile-menu-icon">
                     <button onClick={toggleMenu}>
                         <img className='icon-menu' src={isMenuOpen ? closeMenu : menu} alt="" />

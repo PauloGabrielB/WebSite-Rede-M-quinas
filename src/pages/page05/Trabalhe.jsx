@@ -10,7 +10,7 @@ export default function Trabalhe() {
     return (
         <>
         <section className="tela-toda">
-           <Header />
+        <Header />
         <section className="trabalhe">
             <div className="trabalhe-img">
                 <img src={cimg1} alt="" />
@@ -19,7 +19,6 @@ export default function Trabalhe() {
                 <a href="https://linktr.ee/mktrede">
                 <button><FaWhatsapp className='wicon' />WhatsApp</button>
                 </a>
-                
             </div>            
             <Formulario />
         </section>

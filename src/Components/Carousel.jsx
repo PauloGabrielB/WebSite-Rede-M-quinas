@@ -32,15 +32,15 @@ export default function Carousell() {
         <div className='carousel-2'>
           <img className='img2' src={img14} alt="" />
           <div className="caption-2">
-            <h1>Equipamentos de Ponta</h1>
+            <h2>Equipamentos de Ponta</h2>
             <button><a href="https://linktr.ee/mktrede">Saiba Mais</a></button>
           </div>
         </div>
 
         <div className='carousel-3'>
           <img className='img3' src={cimg3} alt="" />
-          <div className="caption-3">
-            <h1>Transporte de Equipamento</h1>
+          <div className="caption-3 cp3">
+            <h1 className='cph1'>Transporte de Equipamento</h1>
             <button><a href="https://linktr.ee/mktrede">Saiba Mais</a></button>
           </div>
         </div>

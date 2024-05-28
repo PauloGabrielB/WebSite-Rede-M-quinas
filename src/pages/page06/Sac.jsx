@@ -4,7 +4,8 @@ import Footer from '../../Components/Footer'
 import './Sac.css'
 
 
-import rmm from './img/rmm.png'
+
+import imgsac from './img/imgsac.png'
 
 export default function Sac() {
 
@@ -14,7 +15,7 @@ export default function Sac() {
         <Header />
         <section className="container-sac">
         <div className="sac-img">
-            <img src={rmm} alt="" />
+            <img src={imgsac} alt="" />
         </div>
         <h2>Queremos ouvir você.</h2>
         <h3>Em que podemos ajudar ?</h3>
