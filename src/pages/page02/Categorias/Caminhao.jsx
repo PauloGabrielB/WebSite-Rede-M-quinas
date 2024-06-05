@@ -90,7 +90,7 @@ export default function Caminhao() {
                 <div className="produtos">
                     <div className="divprod15">
                         <img src={prod15} alt="" />
-                        <button>Betoneira Proffisional</button>
+                        <button>Caminhão Munck</button>
                     </div>
                 </div>
                 </div>

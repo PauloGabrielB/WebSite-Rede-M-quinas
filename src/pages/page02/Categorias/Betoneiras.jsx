@@ -100,15 +100,15 @@ export default function Betoneira() {
         </div>
         <div className="divprod11">
             <img src={prod11} alt="" />
-            <button>Betoneira Proffisional</button>
+            <button>Betoneira 400 lts Diesel</button>
         </div>
         <div className="divprod12">
             <img src={prod12} alt="" />
-            <button>Betoneira Proffisional</button>
+            <button>Bet. 600L Hidráulica</button>
         </div>
         <div className="divprod13">
             <img src={prod13} alt="" />
-            <button>Betoneira Proffisional</button>
+            <button>Betoneira 600 lts</button>
         </div>            
     </div>
 

@@ -345,11 +345,19 @@
     .tela-toda {
         overflow: hidden;
     }
-
+    .produtos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: -150px;
+    }
+    .line1 {
+        justify-content: center;
+    }
     .valor {
         margin-top: 30px;
     }
-
     .tela-toda {
         overflow: hidden;
     }
@@ -382,10 +390,10 @@
     .App {
         display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
         width: 100%;
-        overflow: hidden;
         margin-left: -50px;
-    }
+        }
 
     .search-container {
         display: none;
@@ -395,25 +403,13 @@
         margin-left: 0;
         width: 100%;
     }
-    
-    .lista-categorias {
-        /* margin-left: 300px; */
-        text-align: right;
-        height: 650px;
-    }
-
-   
-
     .category-item {
         text-align: start;
         width: 250px;
     }
-
     .category-item a {
         font-size: 15px;
-    }
-
-    
+    }  
     .divprod1 {
         width: 300px;
         height: 300px;
@@ -441,7 +437,6 @@
         font-weight: 600;
         font-size: 20px;
     }
-    
     .divprod2 {
         width: 300px;
         height: 300px;
@@ -450,13 +445,11 @@
         margin-top: 50px;
         border-radius: 10px 10px 0 0;
     }  
-    
     .divprod2 img {
         width: 80%;
         margin-left: 35px;
         margin-top: 15px;
-    }
-    
+    }    
     .divprod2 button {
         width: 100%;
         height: 40px;
@@ -468,7 +461,6 @@
         font-weight: 600;
         font-size: 20px;
     }
-    
     .divprod3 {
         width: 300px;
         height: 300px;
@@ -477,13 +469,11 @@
         margin-top: 50px;
         border-radius: 10px 10px 0 0;
     }   
-    
     .divprod3 img {
         width: 80%;
         margin-left: 30px;
         margin-top: 25px;
-    }
-    
+    } 
     .divprod3 button {
         width: 100%;
         height: 40px;
@@ -503,13 +493,11 @@
         margin-top: 50px;
         border-radius: 10px 10px 0 0;
     }   
-    
     .divprod4 img {
         width: 80%;
         margin-left: 30px;
         margin-top: 75px;
     }
-    
     .divprod4 button {
         width: 100%;
         height: 40px;
@@ -521,11 +509,9 @@
         font-weight: 600;
         font-size: 20px;
     }
-    
     .line2 {
         display: flex;
-    }
-    
+    } 
     .divprod5 {
         width: 300px;
         height: 300px;
