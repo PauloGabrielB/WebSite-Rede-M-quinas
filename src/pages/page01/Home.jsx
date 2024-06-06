@@ -4,6 +4,7 @@ import Carousel from '../../Components/Carousel'
 import Footer from '../../Components/Footer'
 import CardSlider from '../../Components/CardSlider'
 import BoxContainer from '../../Components/BoxContainer'
+import ContCircular from '../../Components/ContCircular'
 
 
 
@@ -31,7 +32,9 @@ export default function Home() {
 
             <section className="categorias">           
             <div className="centro">
-            <div className="container">
+              <ContCircular />
+              
+            {/* <div className="container">
               <img className='center-image' src={img10} alt="" />
               <div className="coluna-1">
                 <div className='div1'><h1>Comércio e Serviços</h1><img className='r-1' src={img11} alt="" /></div>
@@ -44,7 +47,7 @@ export default function Home() {
                 <div className='div5'><h1>Industria</h1><img src={img11} alt="" /></div>
                 <div className='div6'><h1>Outros</h1><img src={img11} alt="" /></div>
               </div>
-            </div>
+            </div> */}
 
             <div className="missao">
               <img src='' alt="" />

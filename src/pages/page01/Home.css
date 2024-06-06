@@ -521,7 +521,7 @@
 }
 
 .div1 h1 {
-    font-size: 25px;
+    font-size: 23px;
     margin-left: 30px;
     font-family: Jost;
     font-weight: 600;
@@ -645,7 +645,51 @@
     background: #fff;
     border-radius: 20px;   
 }
+.div1 img,
+.div2 img,
+.div3 img,
+.div4 img,
+.div5 img,
+.div6 img {
+    transition: transform 0.5s ease; /* Adicione a transição normal aqui */
+}
 
+.div1 img:hover,
+.div2 img:hover,
+.div3 img:hover,
+.div4 img:hover,
+.div5 img:hover,
+.div6 img:hover {
+    transform: scale(1.1);
+}
+
+.left-p {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 50px;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    border: 3px solid #d41E25;
+}
+.rigth-p {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 0px;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    border: 3px solid #d41E25;
+}
+.hidden {
+    display: none;
+}
 
 
 /* Container Circular - Responsivo */
@@ -803,6 +847,15 @@
     height: 100px;
     margin-top: -65px;
     margin-left: 75px;
+}
+.left-p {
+    width: 330px;
+    margin-top: 30px;
+}
+.rigth-p {
+    width: 330px;
+    margin-left: -180px;
+    margin-top: 30px;
 }
 }
 
