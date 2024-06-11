@@ -5,6 +5,7 @@ import Footer from '../../Components/Footer'
 import CardSlider from '../../Components/CardSlider'
 import BoxContainer from '../../Components/BoxContainer'
 import ContCircular from '../../Components/ContCircular'
+import CCircular from '../../Components/CCircular'
 
 
 
@@ -33,6 +34,7 @@ export default function Home() {
             <section className="categorias">           
             <div className="centro">
               <ContCircular />
+              {/* <CCircular /> */}
               
             {/* <div className="container">
               <img className='center-image' src={img10} alt="" />
