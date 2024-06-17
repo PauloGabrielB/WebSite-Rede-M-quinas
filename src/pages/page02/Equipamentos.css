@@ -16,8 +16,10 @@
 
 .valor {
     display: flex;
-    justify-content: center;
-    padding-top: 5%;
+    justify-content: start;
+    padding-top: 0;
+    margin-left: 4%;
+    margin-bottom: 0;
 }
 
 .valor button {
@@ -68,6 +70,8 @@
 .App {
     display: flex;
     flex-direction: row;
+    margin-top: 0;
+    margin-top: -50px;
 }
 
 .lista-categorias h1 {

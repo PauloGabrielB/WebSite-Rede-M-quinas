@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 // importação das imagens
 import simg1 from '../img/Andaime-Fachadeiro.png'
-import simg2 from '../img/prod11.jpg'
+import simg2 from '../img/prod10.jpg'
 import simg3 from '../img/simg3.jpg'
 import simg4 from '../img/simg4.jpg'
 import simg5 from '../img/simg5.jpg'

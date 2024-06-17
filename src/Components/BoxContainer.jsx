@@ -3,6 +3,7 @@ import imgico2 from '../img/imgico2.png'
 import imgico3 from '../img/imgico3.png'
 import imgico4 from '../img/imgico4.png'
 import imgico5 from '../img/imgico5.png'
+import imgico6 from '../img/imgico6.png'
 
 
 export default function BoxContainer() {
@@ -15,6 +16,7 @@ export default function BoxContainer() {
                 <div className="box"><img src={imgico3} alt="" /></div>
                 <div className="box"><img src={imgico4} alt="" /></div>
                 <div className="box"><img src={imgico5} alt="" /></div>
+                <div className="box"><img className='iif2' src={imgico6} alt="" /></div>
             </div>
         </section>
     )

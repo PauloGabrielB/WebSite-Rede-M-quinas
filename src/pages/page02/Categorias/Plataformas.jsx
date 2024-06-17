@@ -24,7 +24,7 @@ export default function Plataformas() {
  <section className="hero2">
  <Carousel2 />
  <div className="valor">
-     <button><a href="https://linktr.ee/mktrede">Orçamento</a></button>
+     <button><a href="https://linktr.ee/mktrede">Solicitar Orçamento</a></button>
  </div>
  
  <div className="App">
