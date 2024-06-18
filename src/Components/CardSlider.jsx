@@ -1,39 +1,35 @@
 import React, { useState, useEffect } from 'react';
-import { IoIosArrowForward } from "react-icons/io";
-import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import { Link } from 'react-router-dom';
+import { useSwipeable } from 'react-swipeable';
 
-// importação das imagens
-import simg1 from '../img/Andaime-Fachadeiro.png'
-import simg2 from '../img/prod10.jpg'
-import simg3 from '../img/simg3.jpg'
-import simg4 from '../img/simg4.jpg'
-import simg5 from '../img/simg5.jpg'
-import simg6 from '../img/simg6.jpg'
-import simg7 from '../img/simg7.jpg'
-import simg8 from '../img/simg8.jpg'
-import simg9 from '../img/simg9.jpg'
-import simg10 from '../img/simg10.png'
+// Importação das imagens
+import simg1 from '../img/Andaime-Fachadeiro.png';
+import simg2 from '../img/prod10.jpg';
+import simg3 from '../img/simg3.jpg';
+import simg4 from '../img/simg4.jpg';
+import simg5 from '../img/simg5.jpg';
+import simg6 from '../img/simg6.jpg';
+import simg7 from '../img/simg7.jpg';
+import simg8 from '../img/simg8.jpg';
+import simg9 from '../img/simg9.jpg';
+import simg10 from '../img/simg10.png';
 
 export default function CardSlider() {
   const [currentPosition, setCurrentPosition] = useState(0);
   const [slidesPerPage, setSlidesPerPage] = useState(0);
   const [slidesCount, setSlidesCount] = useState(0);
-  const [containerWidth, setContainerWidth] = useState(0);
 
-
-  
   useEffect(() => {
     const container = document.getElementById('slider-container');
     const slides = document.getElementsByClassName('slide').length;
 
     const checkWidth = () => {
       const w = container.offsetWidth;
-      setContainerWidth(w);
-      setParams(w);
+      setParams(w, slides);
     };
 
-    const setParams = (w) => {
+    const setParams = (w, slides) => {
       let newSlidesPerPage;
       if (w < 551) {
         newSlidesPerPage = 1;
@@ -68,79 +64,40 @@ export default function CardSlider() {
     }
   };
 
+  const swipeHandlers = useSwipeable({
+    onSwipedLeft: slideRight,
+    onSwipedRight: slideLeft,
+  });
+
   const currentMargin = -(currentPosition * (100 / slidesPerPage));
 
   return (
     <section className="component-slider">
-      <span onClick={slideLeft} className={`btn ${currentPosition === slidesCount ? 'inactive' : ''}`}><IoIosArrowBack className='seta-back' /></span>
-      <div id="slider-container" className="slider-container">
-        
-        <div id="slider" className="slider" style={{marginLeft: `${currentMargin}%`}}>
-
-        
-          <div className="slide">
-            <img src={simg1} alt="" />
-            <Link to={'/Equipamentos'} style={{ textDecoration: 'none' }}>
-                <h1>Andaimes</h1>       
-            </Link>
+      <span onClick={slideLeft} className={`btn ${currentPosition === 0 ? 'inactive' : ''}`}><IoIosArrowBack className='seta-back' /></span>
+      <div id="slider-container" className="slider-container" {...swipeHandlers}>
+        <div id="slider" className="slider" style={{ marginLeft: `${currentMargin}%` }}>
+          {[
+            { src: simg1, link: '/Equipamentos', title: 'Andaimes' },
+            { src: simg2, link: '/Betoneiras', title: 'Betoneiras' },
+            { src: simg3, link: '/Geradores', title: 'Geradores' },
+            { src: simg4, link: '/Compactador', title: 'Compactador' },
+            { src: simg5, link: '/Plataformas', title: 'Plataformas' },
+            { src: simg6, link: '/Compressores', title: 'Compressores' },
+            { src: simg7, link: '/Maquinas', title: 'Máquinas' },
+            { src: simg8, link: '/Ferramentas', title: 'Ferramentas' },
+            { src: simg9, link: '/Cargas', title: 'Cargas' },
+            { src: simg10, link: '/Terraplanagem', title: 'Terra Planagem' },
+          ].map((slide, index) => (
+            <div key={index} className="slide">
+              <img src={slide.src} alt="" />
+              <Link to={slide.link} style={{ textDecoration: 'none' }}>
+                <h1>{slide.title}</h1>
+              </Link>
             </div>
-          <div className="slide">
-            <img src={simg2} alt="" />
-            <Link to={'/Betoneiras'} style={{ textDecoration: 'none' }}> 
-            <h1>Betoneiras</h1>
-            </Link>
-          </div>
-          <div className="slide simg3">
-            <img src={simg3} alt="" />
-            <Link to={'/Geradores'} style={{ textDecoration: 'none' }}>
-            <h1>Geradores</h1>
-            </Link>
-          </div>
-          <div className="slide simg4">
-            <img src={simg4} alt="" />
-            <Link to={'/Compactador'} style={{ textDecoration: 'none' }}>
-            <h1>Compactador</h1>
-            </Link>
-          </div>
-          <div className="slide simg5">
-            <img src={simg5} alt="" />
-            <Link to={'/Plataformas'} style={{ textDecoration: 'none' }}>
-              <h1>Plataformas</h1>
-            </Link>
-          </div>
-          <div className="slide simg6">
-            <img src={simg6} alt="" />
-            <Link to={'/Compressores'} style={{ textDecoration: 'none' }}>
-              <h1>Compressores</h1>
-            </Link>
-          </div>
-          <div className="slide">
-            <img src={simg7} alt="" />
-            <Link to={'/Maquinas'} style={{ textDecoration: 'none' }}>
-            <h1>Máquinas</h1>
-            </Link>
-          </div>
-          <div className="slide">
-            <img src={simg8} alt="" />
-            <Link to={'/Ferramentas'} style={{ textDecoration: 'none' }}>
-            <h1>Ferramentas</h1>
-            </Link>
-          </div>
-          <div className="slide">
-            <img src={simg9} alt="" />
-            <Link to={'/Cargas'} style={{ textDecoration: 'none' }}>
-            <h1>Cargas</h1>
-            </Link>
-          </div>
-          <div className="slide simg10">
-            <img src={simg10} alt="" />
-            <Link to={'/Terraplanagem'} style={{ textDecoration: 'none' }}>
-            <h1>Terra Planagem</h1>
-            </Link>
-          </div>
+          ))}
         </div>
       </div>
-        <span onClick={slideRight} className={`btn ${currentPosition === 0 ? 'inactive' : ''}`}><IoIosArrowForward className='seta-next' /></span>
+      <span onClick={slideRight} className={`btn ${currentPosition === slidesCount ? 'inactive' : ''}`}><IoIosArrowForward className='seta-next' /></span>
     </section>
   );
 }

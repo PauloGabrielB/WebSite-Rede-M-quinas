@@ -19,6 +19,10 @@
     .App {
         display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        transform: scale(0.85);
+        margin-top: -320px;
     }
 
     .search-container {

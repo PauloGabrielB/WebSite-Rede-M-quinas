@@ -615,165 +615,54 @@
 @media screen and (max-width: 730px) {
 
 
-
-.hero {
-    width: 100%;
-}
-
 .container {
-    /* margin-left: 20px; */
     display: flex;
-    justify-content: center;
-    width: 60%;
-    margin-top: 15%;
+    top: 250px;
 }
-
 .center-image {
     display: none;
 }
-
-.coluna-1 {
-    margin-left: -20px;
+.button-container {
+    justify-content: start;
+    margin: 0;
+    padding: 0;
+    margin-left: 4%;
 }
-
-.div1 {
-    margin-left: 50px;
-    width: 120px;
+.button-1 h1, .button-2 h1, .button-3 h1, .button-4 h1, .button-5 h1, .button-6 h1 {
+    text-align: start;
+    margin-left: -8px;
+    font-size: 17px;
 }
-
-.div1 h1 {
-    font-size: 14px;
-    margin-left: 15px;
-    padding-top: 10px;
-    font-family: Jost;
-    font-weight: 600;
+.button-1, .button-2, .button-3, .button-4, .button-5, .button-6 {
+    top: 0;
+    width: 26%;
+    z-index: 1;
 }
-
-.div1 img {
-    width: 100px;
-    height: 100px;
-    margin-top: -70px;
-    margin-left: 75px;
+.description {
+    z-index: 1500;
 }
-
-.div2 {
-    margin-left: 50px;
-    width: 120px;
-    margin-top: 50px;
+.button-1 {
+    top: 140px;
+    left: 180px;
 }
-
-.div2 h1 {
-    font-size: 15px;
-    padding-top: 20px;
-    font-family: Jost;
-    font-weight: 600;
-    margin-right: 5px;
+.button-2 {
+    left: 180px;
+    top: 70px;
 }
-
-.div2 img {
-    width: 100px;
-    height: 100px;
-    margin-top: -65px;
-    margin-left: 75px;
+.button-3 {
+    left: 10px;
+    top: 140px;
 }
-
-.div3 {
-    margin-left: 50px;
-    width: 120px;
-    margin-top: 50px;
+.button-4 {
+    left: 10px;
+    top: 70px;
 }
-
-.div3 h1 {
-    font-size: 14px;
-    padding-top: 20px;
-    font-family: Jost;
-    font-weight: 600;
-    margin-left: 5px;
-    width: 80px;
+.button-5 {
+    left: 180px;
 }
-
-.div3 img {
-    width: 100px;
-    height: 100px;
-    margin-top: -65px;
-    margin-left: 75px;
-}
-
-.coluna-2 {
-    margin-left: 10px;
-    margin-top: -2px;
-}
-
-.div4 {
-    margin-left: 50px;
-    width: 120px;
-}
-
-.div4 h1 {
-    font-size: 14px;
-    margin-left: -20px;
-    padding-top: 20px;
-    font-family: Jost;
-    font-weight: 600;
-}
-
-.div4 img {
-    width: 100px;
-    height: 100px;
-    margin-top: -65px;
-    margin-left: 75px;
-}
-
-.div5 {
-    margin-left: 50px;
-    width: 120px;
-    margin-top: 50px;
-}
-
-.div5 h1 {
-    font-size: 15px;
-    padding-top: 20px;
-    font-family: Jost;
-    font-weight: 600;
-    margin-right: 5px;
-}
-
-.div5 img {
-    width: 100px;
-    height: 100px;
-    margin-top: -65px;
-    margin-left: 75px;
-}
-
-.div6 {
-    margin-left: 50px;
-    width: 120px;
-    margin-top: 50px;
-}
-
-.div6 h1 {
-    font-size: 15px;
-    padding-top: 20px;
-    font-family: Jost;
-    font-weight: 600;
-    margin-left: 15px;
-    width: 80px;
-}
-
-.div6 img {
-    width: 100px;
-    height: 100px;
-    margin-top: -65px;
-    margin-left: 75px;
-}
-.left-p {
-    width: 330px;
-    margin-top: 30px;
-}
-.rigth-p {
-    width: 330px;
-    margin-left: -180px;
-    margin-top: 30px;
+.button-6 {
+    left: 10px;
+    top: 0px;
 }
 }
 
@@ -847,7 +736,7 @@
     height: auto;
     justify-content: center;
     margin: 10%;
-    margin-top: 120px;
+    margin-top: 50px;
 }
 
 .missao-texto {
