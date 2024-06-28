@@ -30,7 +30,7 @@ export default function Compressores() {
 
 <section className="diversos">
 <Carousel2 />
-<div className="valor">
+<div className="valor vdiversos">
     <button><a href="https://linktr.ee/mktrede">Solicitar Orçamento</a></button>
 </div>
 

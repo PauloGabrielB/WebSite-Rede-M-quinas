@@ -9,7 +9,7 @@ import imgico6 from '../img/imgico6.png'
 export default function BoxContainer() {
     return (
         <section className="box-section">
-            <h1>Locação de Equipamentos e Plataforma Elevatória para diversos tipos de segmentos</h1>
+            <h1>Locação de equipamentos e plataforma elevatória para diversos tipos de segmentos</h1>
             <div className="box-container">
                 <div className="box"><img className='iif' src={imgico1} alt="" /></div>
                 <div className="box"><img src={imgico2} alt="" /></div>

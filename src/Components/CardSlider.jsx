@@ -6,8 +6,8 @@ import { useSwipeable } from 'react-swipeable';
 // Importação das imagens
 import simg1 from '../img/Andaime-Fachadeiro.png';
 import simg2 from '../img/prod10.jpg';
-import simg3 from '../img/simg3.jpg';
-import simg4 from '../img/simg4.jpg';
+import simg3 from '../img/simg3.png';
+import simg4 from '../img/simg4.png';
 import simg5 from '../img/simg5.jpg';
 import simg6 from '../img/simg6.jpg';
 import simg7 from '../img/simg7.jpg';
@@ -80,13 +80,13 @@ export default function CardSlider() {
             { src: simg1, link: '/Equipamentos', title: 'Andaimes' },
             { src: simg2, link: '/Betoneiras', title: 'Betoneiras' },
             { src: simg3, link: '/Geradores', title: 'Geradores' },
-            { src: simg4, link: '/Compactador', title: 'Compactador' },
+            { src: simg4, link: '/Compactador', title: 'Compactadores' },
             { src: simg5, link: '/Plataformas', title: 'Plataformas' },
             { src: simg6, link: '/Compressores', title: 'Compressores' },
             { src: simg7, link: '/Maquinas', title: 'Máquinas' },
             { src: simg8, link: '/Ferramentas', title: 'Ferramentas' },
             { src: simg9, link: '/Cargas', title: 'Cargas' },
-            { src: simg10, link: '/Terraplanagem', title: 'Terra Planagem' },
+            { src: simg10, link: '/Terraplanagem', title: 'Terraplanagem' },
           ].map((slide, index) => (
             <div key={index} className="slide">
               <img src={slide.src} alt="" />

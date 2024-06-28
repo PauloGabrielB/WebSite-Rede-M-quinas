@@ -20,9 +20,6 @@ export default function Caminhao() {
 
         <section className="tela-toda">
         <Header />
-
-                
-
                 <section className="caminhao">
 
                 <Carousel2 />

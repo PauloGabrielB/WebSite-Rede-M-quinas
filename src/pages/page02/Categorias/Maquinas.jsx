@@ -93,7 +93,7 @@ export default function Maquinas() {
 </div>
 <div className="produtos">
 
- <div className="line10">
+ <div className="linem1">
    <div className="divprod52">
     <img src={prod52} alt="" />
     <button>Peneira Elétrica Giratória</button>
@@ -112,7 +112,7 @@ export default function Maquinas() {
    </div>
  </div>
 
- <div className="line11">
+ <div className="linem2">
     <div className="divprod56">
         <img src={prod56} alt="" />
         <button>Perfuratriz Pneumática</button>
@@ -131,7 +131,7 @@ export default function Maquinas() {
     </div>
  </div>
 
- <div className="line12">
+ <div className="linem3">
     <div className="divprod60">
         <img src={prod60} alt="" />
         <button>Empilhadeira</button>

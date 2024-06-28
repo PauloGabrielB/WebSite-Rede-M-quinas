@@ -83,7 +83,7 @@ export default function Plataformas() {
  </div>
  <div className="produtos">
 
-  <div className="line12">
+  <div className="linec1">
      <div className="divprod65">
          <img src={prod65} alt="" />
          <button>Plataforma Elevatória - Articulada e Tesoura</button>

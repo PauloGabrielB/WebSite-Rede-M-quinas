@@ -87,7 +87,7 @@ export default function Terraplanagem() {
 </div>
 <div className="produtos">
 
- <div className="line12">
+ <div className="linet1">
     <div className="divprod66">
         <img src={prod66} alt="" />
         <button>Minicarregadeira (BobCat)</button>

@@ -86,7 +86,7 @@ export default function Cargas() {
             </div>
             <div className="produtos">
 
-            <div className="line12">
+            <div className="linec1">
                 <div className="divprod61">
                     <img src={prod61} alt="" />
                     <button>Talha de Corrente</button>

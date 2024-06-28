@@ -28,9 +28,7 @@ export default function Sobre() {
   <div className="container-sobre">
       <p>A Rede Máquinas é uma empresa voltada para a locação de equipamentos para a construção civil e indústria em geral. Desde a sua fundação, há mais de três décadas, a empresa oferece equipamentos de alta qualidade, priorizando sempre a excelência técnica e a satisfação das reais necessidades de seus clientes.
       Em 1994, atenta às exigências do mercado, ampliou a sua atuação visando atender as diversas outras atividades da indústria, dando continuidade a sua política de preços, diversificação de estoque, qualidade em serviços e produtos. Com isto solidificou sua participação nos diversos setores em que atuava, conquistando novos clientes e parceiros, através de conceitos adquiridos de seriedade e confiança.
-      Estamos presentes em 6 Estados da região Nordeste e contamos com 10 unidades para atender cada vez melhor nossos clientes.
-      Contamos com uma equipe de profissionais altamente qualificados, seja no atendimento ao cliente, em montagens complexas ou em uma simples manutenção. Além disso, temos uma equipe comercial treinada e qualificada para oferecer sempre as melhores opções de negócio. Para tornar isto possível, o nosso grupo de colaboradores tem se empenhado ao máximo e, através da satisfação de nossos clientes e parceiros,
-      temos a certeza de que estamos cumprindo o nosso objetivo. Temos o compromisso de atender nossos clientes com serviços e produtos que possuem tecnologia de ponta, construindo parcerias bem-sucedidas, solidificando a relação de confiança com seus parceiros e garantindo resultados.</p>
+      Estamos presentes em 6 Estados da região Nordeste e contamos com 10 unidades para atender cada vez melhor nossos clientes.</p>
       <div className="sobreimg">
         <img src={imgsobre} alt="" />
       </div>

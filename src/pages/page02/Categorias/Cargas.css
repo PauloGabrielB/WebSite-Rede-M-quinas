@@ -11,7 +11,7 @@
     .cargas {
         margin-top: 0;
         width: 100%;
-        height: 2620px;
+        height: 2150px;
         overflow: hidden;
     }
 
@@ -36,9 +36,11 @@
         margin-left: 80px;
     }
 
-    .line12 {
+    .linec1 {
         display: flexbox;
         flex-direction: column;
+        margin-left: -20px;
+        margin-top: 40px;
     }
 
     .divprod61 {

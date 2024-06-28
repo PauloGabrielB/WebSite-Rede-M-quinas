@@ -1,11 +1,10 @@
 import Header from "../../Components/Header"
 import Formulario from '../../Components/Formulario'
 import Footer from '../../Components/Footer'
+import sacimg from '../../pages/page06/img/sac.png'
 import './Sac.css'
 
 
-
-import imgsac from './img/imgsac.png'
 
 export default function Sac() {
 
@@ -13,14 +12,19 @@ export default function Sac() {
         <>
         <section className="tela-toda">
         <Header />
-        <section className="container-sac">
-        <div className="sac-img">
-            <img src={imgsac} alt="" />
+        <div className="container-sac">
+            <div>
+                 <div className="sac">
+            <img src={sacimg} alt="" />
+            <div className="formsac">
+            <Formulario />
+            </div>
         </div>
-        <h2>Queremos ouvir você.</h2>
+            </div>
+        {/* <h2>Queremos ouvir você.</h2>
         <h3>Em que podemos ajudar ?</h3>
-        <Formulario />
-        </section>
+        <Formulario /> */}
+        </div>
         <Footer />
         </section>
         

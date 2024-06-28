@@ -12,7 +12,7 @@
         background-image: url('../Categorias/img/backblack.png');
         margin-top: 0;
         width: 100%;
-        height: 4400px;
+        height: 3700px;
         overflow: hidden;
     }
 
@@ -37,14 +37,25 @@
         margin-left: 80px;
     }
 
-    .line10 {
+    .linem1 {
         display: flexbox;
         flex-direction: column;
+        margin-left: -20px;
+        margin-top: -100px;
     }
-    .line11 {
+    .linem2 {
         display: flexbox;
         flex-direction: column;
+        margin-left: -20px;
+
     }
+    .linem3 {
+        display: flexbox;
+        flex-direction: column;
+        margin-left: -20px;
+
+    }
+    
 
     .divprod52 {
         width: 300px;

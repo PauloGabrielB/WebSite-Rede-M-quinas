@@ -11,7 +11,7 @@
     .compressor {
         margin-top: 0;
         width: 100%;
-        height: 2550px;
+        height: 2200px;
         overflow: hidden;
     }
 
@@ -35,10 +35,12 @@
     .produtos {
         margin-left: 80px;
     }
-
+    
     .line4 {
         display: flexbox;
         flex-direction: column;
+        margin-top: 50px;
+        margin-left: -5%;
     }
 
     .divprod21 {

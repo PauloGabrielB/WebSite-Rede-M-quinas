@@ -23,20 +23,12 @@ export default function Betoneira() {
     return (
         
     <section className='tela-toda'>
-        
     <Header />
-
-    
-
     <section className="betoneiras">
-
     <Carousel2 />
-
     <div className="valor">
                 <button><a href="https://linktr.ee/mktrede">Solicitar Orçamento</a></button>
     </div>
-
-
     <div className="App">
     <div className="categorias-containers">
         <div className="lista-categorias">
@@ -93,7 +85,7 @@ export default function Betoneira() {
         
     </div>
     <div className="produtos">
-    <div className="line1">
+    <div className="line2">
         <div className="divprod10">
             <img src={prod10} alt="" />
             <button>Betoneira Proffisional</button>

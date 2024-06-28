@@ -10,7 +10,7 @@ export default function Footer() {
         <footer className="footer">
            <div className='fp1'>
             <img src={logorm} alt="" />
-            <p>A Rede Máquinas está comprometida com a implementação e o cumprimento de sua Visão, Missão e Valores, buscando sempre a excelência em seus serviços e a satisfação de seus clientes.</p>
+            <p>Excelência em locação de equipamentos</p>
            </div>
            <div className='fp2'>
             <h1>PÁGINAS</h1>
@@ -66,6 +66,10 @@ export default function Footer() {
                     <a href="https://linktr.ee/mktrede">
                         <h1>Petrolina - PE</h1>
                         <p>Av. Deputado Ulisses Guimarães, 601, Portal da Cidade</p>
+                    </a>
+                    <a href="https://linktr.ee/mktrede">
+                        <h1>João Pessoa - PB</h1>
+                        <p>Rod. Transamazônica, 102, Intermares, Cabedelo</p>
                     </a>
                 </div>
            </div>

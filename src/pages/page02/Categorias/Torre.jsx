@@ -84,7 +84,7 @@ export default function Torre() {
 </div>
 <div className="produtos">
 
- <div className="line12">
+ <div className="linet2">
     <div className="divprod69">
         <img src={prod69} alt="" />
         <button>Torre de Iluminação</button>

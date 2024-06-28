@@ -16,16 +16,14 @@
 
 .valor {
     display: flex;
-    justify-content: start;
-    padding-top: 0;
-    margin-left: 4%;
-    margin-bottom: 0;
+    justify-content: center;
 }
 
 .valor button {
-    width: 200px;
+    width: 250px;
     height: 40px;
     border-radius: 10px;
+    letter-spacing: 1px;
     border: none;
     background: red;
 }
@@ -35,6 +33,7 @@
     color: #fff;
     font-family: Poppins;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .valor button:hover {
@@ -99,7 +98,9 @@
 
 .line1 {
     display: flex;
+    /* margin-top: -100px; */
 }
+
 
 .divprod1 {
     width: 200px;
@@ -354,13 +355,16 @@
         flex-direction: column;
         justify-content: center;
         padding-left: -150px;
+        margin-top: -100px;
     }
     .line1 {
         justify-content: center;
         margin-left: -20px;
+        margin-top: -100px;
     }
+    
     .valor {
-        margin-top: 30px;
+        justify-content: center;
     }
     .tela-toda {
         overflow: hidden;
@@ -387,7 +391,7 @@
     .hhero {
         margin-top: 0;
         width: 100%;
-        height: 4450px;
+        height: 3800px;
         overflow: hidden;
     }
 

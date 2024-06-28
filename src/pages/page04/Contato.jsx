@@ -25,7 +25,7 @@ export default function Contato() {
 
         <div className="body-contact">
             <h1>Solicitar Orçamento</h1>
-            <h3>Entre em Contato Conosco por telefone ou pelo Formulario!</h3>
+            <h3>Entre em contato conosco por telefone ou pelo formulário!</h3>
         </div>
 
         <Formulario />

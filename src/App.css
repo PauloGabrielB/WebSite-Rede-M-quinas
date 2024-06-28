@@ -90,7 +90,7 @@ button a {
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: rgb(211, 2, 2);
+    background: #D41E25;
     color: #fff;
     margin-top: 20px;
     font-family: Poppins;
@@ -120,7 +120,7 @@ button a {
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: rgb(211, 2, 2);
+    background: #D41E25;
     color: #fff;
     margin-top: 20px;
     font-family: Poppins;
@@ -149,7 +149,7 @@ button a {
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: rgb(211, 2, 2);
+    background: #D41E25;
     color: #fff;
     margin-top: 20px;
     font-family: Poppins;
@@ -230,7 +230,7 @@ button a {
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: rgb(211, 2, 2);
+    background: #D41E25;
     color: #fff;
     margin-top: 50px;
     font-family: Poppins;
@@ -266,7 +266,7 @@ button a {
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: rgb(211, 2, 2);
+    background: #D41E25;
     color: #fff;
     margin-top: 50px;
     font-family: Poppins;
@@ -302,13 +302,15 @@ button a {
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: rgb(211, 2, 2);
+    background: #D41E25;
     color: #fff;
     margin-top: 50px;
     font-family: Poppins;
     font-weight: 600;
     margin-left: 10px;
 }
+
+/* CardSlider */
 
 
 #container {
@@ -357,11 +359,12 @@ button a {
 #slider-container #slider .slide {
 	height: 80%;
 	margin: auto 10px;
-	background-color: #ffffff;
+	background-color: #fff;
 	border-radius: 20px;
 	box-shadow: 0 0 18px;
 	display: grid;
 	place-items: center;
+    padding: 10px;
 }
 #slider-container #slider .slide span {
 	color: white;
@@ -389,17 +392,24 @@ button a {
 }
 
 .slider img {
-    width: 80%;
+    width: 90%;
 }
-
 .slider h1 {
+    width: 150px;
+    height: 40px;
+    background: #1A1A1A;
+    border-radius: 10px;
     font-family: Poppins;
-    font-size: 25px;
-    font-weight: 700;
-    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
     text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
 }
-
+.slider h1:hover {
+   background: red;
+}
 .seta-back{
     font-size: 45px;
     color: #fff;
@@ -431,6 +441,7 @@ button a {
 }
 .simg4 h1 {
     margin-top: 30px;
+    
 }
 .simg5 h1 {
     font-size: 25px;
@@ -453,6 +464,25 @@ button a {
 /* ======== SLIDER Mobile - CSS ========= */
 
 @media screen and (max-width: 730px) {
+    
+    #slider-container #slider .slide {
+        height: 280px;
+    }
+    #slider-container #slider .slide h1 {
+        font-size: 15px;
+    }
+    .slider h1 {
+        width: 120px;
+        height: 40px;
+        background: #1A1A1A;
+        border-radius: 10px;
+        font-family: Poppins;
+        font-weight: 600;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 10px;
+    }
 
     .simg10 h1 {
         font-size: 10px;
@@ -584,7 +614,7 @@ button a {
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: rgb(211, 2, 2);
+        background: #D41E25;
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
@@ -618,7 +648,7 @@ button a {
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: rgb(211, 2, 2);
+        background: #D41E25;
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
@@ -650,7 +680,7 @@ button a {
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: rgb(211, 2, 2);
+        background: #D41E25;
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
@@ -681,7 +711,7 @@ button a {
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: rgb(211, 2, 2);
+        background: #D41E25;
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
@@ -713,7 +743,7 @@ button a {
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: rgb(211, 2, 2);
+        background: #D41E25;
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
@@ -745,7 +775,7 @@ button a {
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: rgb(211, 2, 2);
+        background: #D41E25;
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
@@ -1031,6 +1061,83 @@ a {
 
 
 
+/* ========== FormSAC =========== */
+
+
+/* ========== FormGrande =========== */
+
+.contact-section {
+    padding: 20px;
+    /* background-image: url('./pages/page05/img/striped-background-k74iuvvk97q6qb4p.jpg'); */
+    background: #1A1A1A;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%;
+    margin: 10%;
+    margin-top: -80px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.form-input, .form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #D41E25;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #a01418;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.social-icon {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #d41E25;
+}
+
 /* ========== Formulario =========== */
 
 .form-control {
@@ -1049,19 +1156,20 @@ a {
 }
 
 .form-container {
-    max-width: 400px;
+    width: 350px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 8px;
-    border: 3px solid #545454;
+    border: 3px solid #2c2c2cc2;
     margin-top: 50px;
     margin-bottom: 50px;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
-    
+    background: transparent;
 }
 
 .dff {
-    color: #fff;
+    color: #ffffff;
+    text-shadow: 0 0 6px black;
 }
 
 
@@ -1079,7 +1187,7 @@ a {
     width: 100%;
     padding: 10px;
     margin-bottom: 16px;
-    border: 1px solid #ddd;
+    border: 1px solid #1A1A1A;
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -1092,7 +1200,7 @@ a {
 .form-container button {
     width: 100%;
     padding: 12px;
-    background-color: #007bff;
+    background-color: #D41E25;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -1102,7 +1210,7 @@ a {
 }
   
 .form-container button:hover {
-    background-color: #0056b3;
+    background-color: #a01418;
 }
 
 .social-icons {
@@ -1124,18 +1232,18 @@ a {
 }
 
 .wsp-ico {
-  color: green;
+  color: #D41E25;
 }
 
 .insta-ico {
-  color: #833AB4 ;
+  color: #D41E25 ;
 }
 
 
   /* ========= Footer =========== */
 
 .footer {
-    width: 100vh;
+    width: 100%;
     height: 300px;
     background: #1a1a1a;
     display: flex;
@@ -1144,7 +1252,7 @@ a {
 }
 
 .fp1 {
-    margin-left: 5%;
+    margin-left: 1%;
     margin-top: 1%;
 }
 
@@ -1162,7 +1270,7 @@ a {
 }
 
 .fp2 {
-    margin-left: 100px;
+    margin-left: 70px;
     text-decoration: none;
 }
 
@@ -1183,7 +1291,8 @@ a {
 }
 
 .fp3 {
-    margin-left: 100px;
+    margin-left: 70px;
+    margin-right: -70px;
 }
 
 .fp3-title {
@@ -1194,7 +1303,7 @@ a {
     font-family: Poppins;
     font-weight: 600;
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 19px;
     color: #fff;
 }
 
@@ -1204,11 +1313,15 @@ a {
 
 .fp4 {
     color: #fff;
+    
 }
 
 .local {
     display: flex;
     flex-direction: column;
+    transform: scale(0.85);
+    margin-top: -20px;
+    margin-left: -15px;
 }
 
 .local a {
@@ -1239,6 +1352,7 @@ a {
     display: block;
     align-items: center; /* Alinha os itens verticalmente ao centro */
     color: #545454;
+    margin-top: -25px;
 }
 
 .fp4-contatos div {
@@ -1362,7 +1476,8 @@ a {
   }
 
 .local h1:hover{
-    filter: drop-shadow(0 0 6px rgb(255, 255, 255));
+    filter: drop-shadow(0 0 6px #d41e2485);
+    color: #D41E25;
 }  
 .flinks {
     margin-top: 0px;
@@ -1382,7 +1497,7 @@ a {
 
 .footer {
     width: 100%;
-    height: 900px;
+    height: 750px;
     display: flex;
     flex-direction: column;
 }
@@ -1454,7 +1569,9 @@ a {
     margin-left: 4%;
     margin-right: 10px;
 }
-
+.local {
+    margin-left: -32px;
+}
 .local h1 {
     font-size: 12px;
 }

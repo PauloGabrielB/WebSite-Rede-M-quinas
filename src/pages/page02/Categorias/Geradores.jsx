@@ -90,7 +90,7 @@ export default function Geradores() {
 </div>
 <div className="produtos">
 
-  <div className="line10">
+  <div className="linegera">
     <div className="divprod49">
         <img src={prod49} alt="" />
         <button>Grupo Gerador 12,5 KVA</button>

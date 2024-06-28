@@ -7,9 +7,6 @@ import BoxContainer from '../../Components/BoxContainer'
 import ContCircular from '../../Components/ContCircular'
 
 
-
-
-
 import img10 from './img/img10.png'
 import img11 from './img/rlogo.png'
 
