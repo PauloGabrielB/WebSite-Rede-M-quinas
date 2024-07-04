@@ -5,6 +5,10 @@
     height: 1400px;
 }
 
+.linegera {
+    display: flex;
+    flex-direction: row;
+}
 @media screen and (max-width: 730px) {
     
 
