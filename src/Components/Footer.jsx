@@ -39,6 +39,7 @@ export default function Footer() {
             <img src={logorm} alt="" />
             <h1 className='fp3-title'>ENDEREÇOS</h1>
            <div className="local">
+            <div className="local1">
                     <a href="https://linktr.ee/mktrede">
                         <h1>Fortaleza - CE</h1>
                         <p>Rodovia BR-116, 1854,Cajazeiras.</p>
@@ -55,7 +56,9 @@ export default function Footer() {
                         <h1>Teresina - PI - Unidade Kennedy</h1>
                         <p>Rua Comandante Área Leão, 09, São Cristovão.</p>    
                     </a>
-                    <a href="https://linktr.ee/mktrede">
+            </div>
+            <div className="local2">
+                 <a href="https://linktr.ee/mktrede">
                         <h1>Mossoró - RN</h1>
                         <p>Av.Wilson Rosado, 1798, Nova Betânia.</p>
                     </a>
@@ -71,6 +74,7 @@ export default function Footer() {
                         <h1>João Pessoa - PB</h1>
                         <p>Rod. Transamazônica, 102, Intermares, Cabedelo</p>
                     </a>
+            </div>
                 </div>
            </div>
            
@@ -86,7 +90,7 @@ export default function Footer() {
                 </div>
                 <div className='fp4-funcionamento'>
                     <i className="fa-solid fa-circle-check"></i>
-                    <h1>Seg - Sex : 07:30 ás 12:00 - 13:15 ás 17:33</h1>
+                    <h1>Seg - Sexta : 07:30 ás 12:00 - 13:15 ás 17:33</h1>
                 </div>
                 <div className='fp4-icons'>
                     <a href="https://www.instagram.com/redemaquinas/">

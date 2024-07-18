@@ -24,7 +24,7 @@ export default function Header() {
                 <div className="nav-list">
                     <ul className={isMenuOpen ? 'nav-list-open' : 'nav-list-closed'}>
                         <Link to={'/'}>
-                        <li className='nav-item'><a className='nav-link' href="#home">Home</a></li>
+                        <li className='nav-item'><a className='nav-link' href="#home">Inicio</a></li>
                         </Link>
                         <Link to={'/Equipamentos'}>
                             <li className='nav-item'><a className='nav-link' href="#equipamentos">Equipamentos</a></li>

@@ -23,7 +23,7 @@
 
 .caption-1 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     margin-left: 680px;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -40,27 +40,29 @@
     font-family: Poppins;
     font-weight: bold;
     margin-top: 0px;
-    font-size: 70px;
+    font-size: 54px;
     text-shadow: 0 0 8px black;
+    margin-left: -280px;
 }
 
 .caption-1 button {
-    width: 300px;
+    width: 200px;
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: #D41E25;
+    background: #db070e;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 0px;
     font-family: Poppins;
     font-weight: 600;
+    margin-left: 35px;
     /* margin-left: 400px; */
     /* align-items: center; */
 }
 
 .caption-2 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     margin-left: 680px;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -77,26 +79,26 @@
     font-family: Poppins;
     font-weight: bold;
     margin-top: 0px;
-    font-size: 70px;
+    font-size: 50px;
     text-shadow: 0 0 8px black;
+    margin-left: 30px;
 }
 
 .caption-2 button {
-    width: 300px;
+    width: 200px;
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: #D41E25;
+    background: #db070e;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 0px;
     font-family: Poppins;
     font-weight: 600;
-    /* margin-left: 400px; */
-    align-items: center;
+    margin-left: 30px;
 }
 .caption-3 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     margin-left: 680px;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -113,22 +115,26 @@
     font-family: Poppins;
     font-weight: bold;
     margin-top: 0px;
-    font-size: 60px;
+    font-size: 50px;
     text-shadow: 0 0 8px black;
+    margin-left: 30px;
 }
 
 .caption-3 button {
-    width: 300px;
+    width: 200px;
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: #D41E25;
+    background: #db070e;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 0px;
     font-family: Poppins;
     font-weight: 600;
-    /* margin-left: 400px; */
-    align-items: center;
+    margin-left: 30px;
+}
+
+.caption-3 a {
+    font-size: 17px;
 }
 
 
@@ -164,26 +170,30 @@
     }
     .caption-1 h2 {
         font-family: Poppins;
-        font-size: 22px;
+        font-size: 23px;
         color: #fff;
-        margin-top: 20px;
-        margin-left: -30px;
-        margin-bottom: 40px;
+        margin-top: 0px;
+        margin-left: -7px;
+        margin-bottom: 15px;
     }
     .caption-1 button {
-        width: 120px;
+        width: 150px;
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: rgb(211, 2, 2);
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
         font-weight: 600;
-        margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 42%;
     }
-
+    button a {
+        text-decoration: none;
+        color: #fff;
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 20px;
+    }
 
     .caption-2 {
         position: absolute;
@@ -199,24 +209,22 @@
 
     .caption-2 h2 {
         font-family: Poppins;
-        font-weight: 600;
         font-size: 22px;
         color: #fff;
-        margin-top: 30px;
-        margin-left: 10px;
+        margin-top: 0px;
+        margin-left: 12px;
+        margin-bottom: 15px;
     }
     .caption-2 button {
-        width: 120px;
+        width: 150px;
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: rgb(211, 2, 2);
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
         font-weight: 600;
-        margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 42%;
     }
 
     .caption-3 {
@@ -235,21 +243,20 @@
         font-family: Poppins;
         font-size: 18px;
         color: #fff;
-        margin-top: 20px;
-        margin-left: 20px;
+        margin-top: 0px;
+        margin-left: 15px;
+        margin-bottom: 15px;
     }
     .caption-3 button {
-        width: 120px;
+        width: 150px;
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: rgb(211, 2, 2);
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
         font-weight: 600;
-        margin-top: 10px;
-        margin-left: 15px;
+        margin-left: 42%;
     }
     
 }
@@ -270,7 +277,7 @@
     margin-bottom: 0;
     display: flex;
     flex-direction: column-reverse;
-    padding-top: 1300px;
+    padding-top: 1200px;
 }
 
 .centro {

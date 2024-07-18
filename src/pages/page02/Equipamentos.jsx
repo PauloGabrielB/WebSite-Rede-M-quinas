@@ -7,7 +7,7 @@ import './Equipamentos.css'
 import React, { useState } from 'react';
 
 import { Link } from 'react-router-dom';
-import img1 from './img/img1.jpg'
+
 
 // Imagem dos Produtos
 import prod1 from './img/prod1.png'
@@ -44,7 +44,7 @@ export default function Equipamentos() {
                       <h1>Categorias</h1>
                     <ul className='categorias-list'>
                     <Link to={'/Equipamentos'}>
-                        <li className='category-item' ><a href="">Andaimes</a></li>
+                        <li className='category-item' ><a href="">Ferragens</a></li>
                     </Link>
                     <Link to={'/Betoneiras'}>
                         <li className='category-item' ><a href="">Betoneiras</a></li>
@@ -77,13 +77,13 @@ export default function Equipamentos() {
                         <li className='category-item' ><a href="">Máquinas</a></li>
                     </Link>
                     <Link to={'/Cargas'}>
-                        <li className='category-item' ><a href="">Movimentação de Cargas</a></li>
+                        <li className='category-item' ><a href="">Elevação de Cargas</a></li>
                     </Link>
                     <Link to={'/Plataformas'}>
                         <li className='category-item' ><a href="">Plataformas Aéreas</a></li>
                     </Link>
                     <Link to={'/Terraplanagem'}>
-                        <li className='category-item' ><a href="">Terraplanagem</a></li>
+                        <li className='category-item' ><a href="">Linha Amarela</a></li>
                     </Link>
                     <Link to={'/Torre'}>
                         <li className='category-item' ><a href="">Torres de Iluminação</a></li>

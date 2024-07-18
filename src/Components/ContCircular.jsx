@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 
-import img10 from '../pages/page01/img/8.png';
+import img10 from '../pages/page01/img/10.jpg';
 import img11 from '../pages/page01/img/rlogo.png';
-import img1 from '../pages/page01/img/1.png'
-import img2 from '../pages/page01/img/2.png'
+import img1 from '../pages/page01/img/1.jpeg'
 import img3 from '../pages/page01/img/3.png'
 import img4 from '../pages/page01/img/4.png'
 import img5 from '../pages/page01/img/5.png'
@@ -27,9 +26,9 @@ const App = () => {
   const buttonData = [
     { title: 'Serviços', hoverImg: img5, description: 'Nossa empresa oferece soluções de locação de equipamentos para empresas de Comércio e Serviços...' },
     { title: 'Energia', hoverImg: img3, description: 'Oferecemos equipamentos de alta qualidade para o setor de Energia...' },
-    { title: 'Infraestrutura', hoverImg: img2, description: 'Fornecemos uma ampla gama de equipamentos essenciais para projetos de infraestrutura...' },
-    { title: 'Óleo e Gás', hoverImg: img1, description: 'Para o setor de Óleo e Gás, alugamos equipamentos especializados...' },
-    { title: 'Indústria', hoverImg: img4, description: 'No setor industrial, oferecemos máquinas e ferramentas para montagem...' },
+    { title: 'Infraestrutura', hoverImg: img4, description: 'Fornecemos uma ampla gama de equipamentos essenciais para projetos de infraestrutura...' },
+    { title: 'Contrução Civil', hoverImg: img1, description: 'Para o setor de Óleo e Gás, alugamos equipamentos especializados...' },
+    { title: 'Indústria', hoverImg: img10, description: 'No setor industrial, oferecemos máquinas e ferramentas para montagem...' },
     { title: 'Outros', hoverImg: img6, description: 'Para outras necessidades de locação, fornecemos uma variedade de equipamentos...' },
   ];
 
@@ -43,7 +42,7 @@ const App = () => {
           onMouseEnter={() => handleMouseEnter(index + 1, button.hoverImg)}
           onMouseLeave={handleMouseLeave}
         >
-          <img src={img11} alt={`${button.title} icon`} />
+          <img className='imgcircular' src={img11} alt={`${button.title} icon`} />
           <h1>{button.title}</h1>
           {activeButton === index + 1 && <p className='description'>{button.description}</p>}
         </div>
@@ -53,3 +52,9 @@ const App = () => {
 };
 
 export default App;
+
+
+
+
+
+

@@ -6,7 +6,7 @@ import './Sobre.css'
 import { Link } from 'react-router-dom';
 
 
-import imgsobre from './img/imgsobre.jpg'
+import imgsobre from './img/imgsobre.jpeg'
 import img1 from './img/img1.png'
 import img2 from './img/img2.png'
 import img3 from './img/img3.png'
@@ -43,7 +43,7 @@ export default function Sobre() {
       <div className="infocards2">
           <img src={img2} alt="" />
           <h1>Visão</h1>
-          <p>Ser a rede de locação de equipamentos mais admirada e referência em qualidade, eficiência e excelência no atendimento ao cliente com capilaridade nacional.</p>
+          <p>Ser a rede de locação de equipamentos mais admirada e referência em qualidade, eficiência e excelência no atendimento ao cliente com capilaridade.</p>
       </div>
       <div className="infocards3">
           <img src={img3} alt="" />

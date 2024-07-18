@@ -14,6 +14,7 @@ import prod26 from './img/prod26.jpg'
 import prod27 from './img/prod27.png'
 import prod28 from './img/prod28.png'
 import prod29 from './img/prod29.png'
+import prod21 from './img/prod21.jpg'
 
 
 
@@ -41,7 +42,7 @@ export default function Compressores() {
       <h1>Categorias</h1>
     <ul className='categorias-list'>
     <Link to={'/Equipamentos'}>
-        <li className='category-item' ><a href="">Andaimes</a></li>
+        <li className='category-item' ><a href="">Ferragens</a></li>
     </Link>
     <Link to={'/Betoneiras'}>
         <li className='category-item' ><a href="">Betoneiras</a></li>
@@ -74,13 +75,13 @@ export default function Compressores() {
         <li className='category-item' ><a href="">Máquinas</a></li>
     </Link>
     <Link to={'/Cargas'}>
-        <li className='category-item' ><a href="">Movimentação de Cargas</a></li>
+        <li className='category-item' ><a href="">Elevação de Cargas</a></li>
     </Link>
     <Link to={'/Plataformas'}>
         <li className='category-item' ><a href="">Plataformas Aéreas</a></li>
     </Link>
     <Link to={'/Terraplanagem'}>
-        <li className='category-item' ><a href="">Terraplanagem</a></li>
+        <li className='category-item' ><a href="">Linha Amarela</a></li>
     </Link>
     <Link to={'/Torre'}>
         <li className='category-item' ><a href="">Torres de Iluminação</a></li>
@@ -94,9 +95,21 @@ export default function Compressores() {
   <div className="line4">
     <div className="divprod26">
         <img src={prod26} alt="" />
-        <button>Motobomba 4x4 Gasolina</button>
+        <button>Motobomba 4x4</button>
     </div>
-    <div className="divprod26">
+    <div className="divprod27">
+        <img src={prod27} alt="" />
+        <button>Bomba de Drenagem</button>
+    </div>
+    <div className="divprod28">
+        <img src={prod28} alt="" />
+        <button>Vibradores de Imersão 25 a 60mm</button>
+    </div>
+    <div className="divprod29">
+        <img src={prod29} alt="" />
+        <button>Motor Acionador Elétrico</button>
+    </div>
+    {/* <div className="divprod26">
         <img src={prod26} alt="" />
         <button>Motobomba 4x4 Diesel</button>
     </div>
@@ -107,33 +120,28 @@ export default function Compressores() {
     <div className="divprod26">
         <img src={prod26} alt="" />
         <button>Motobomba 3x3 Diesel</button>
-    </div>
+    </div> */}
   </div>
 
   <div className="line5">
-    <div className="divprod27">
-        <img src={prod27} alt="" />
-        <button>Bomba de Drenagem AV 80</button>
-    </div>
-    <div className="divprod27">
+    
+    {/* <div className="divprod27">
         <img src={prod27} alt="" />
         <button>Bomba de Drenagem AV 50</button>
     </div>
     <div className="divprod27">
         <img src={prod27} alt="" />
         <button>Bomba de Drenagem AV 25</button>
-    </div>
-    <div className="divprod28">
-        <img src={prod28} alt="" />
-        <button>Vibradores de Imersão 25 a 60mm</button>
-    </div>
+    </div> */}
+    
   </div>
 
   <div className="line6">
-    <div className="divprod29">
-        <img src={prod29} alt="" />
-        <button>Motor Acionador Elétrico</button>
-    </div>
+    
+    <div className="divprod21">
+         <img src={prod21} alt="" />
+         <button>Rompedor Pneumático</button>
+     </div>
   </div>
 
 </div>

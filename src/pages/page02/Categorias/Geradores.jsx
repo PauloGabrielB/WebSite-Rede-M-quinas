@@ -39,7 +39,7 @@ export default function Geradores() {
       <h1>Categorias</h1>
     <ul className='categorias-list'>
     <Link to={'/Equipamentos'}>
-        <li className='category-item' ><a href="">Andaimes</a></li>
+        <li className='category-item' ><a href="">Ferragens</a></li>
     </Link>
     <Link to={'/Betoneiras'}>
         <li className='category-item' ><a href="">Betoneiras</a></li>
@@ -72,13 +72,13 @@ export default function Geradores() {
         <li className='category-item' ><a href="">Máquinas</a></li>
     </Link>
     <Link to={'/Cargas'}>
-        <li className='category-item' ><a href="">Movimentação de Cargas</a></li>
+        <li className='category-item' ><a href="">Elevação de Cargas</a></li>
     </Link>
     <Link to={'/Plataformas'}>
         <li className='category-item' ><a href="">Plataformas Aéreas</a></li>
     </Link>
     <Link to={'/Terraplanagem'}>
-        <li className='category-item' ><a href="">Terraplanagem</a></li>
+        <li className='category-item' ><a href="">Linha Amarela</a></li>
     </Link>
     <Link to={'/Torre'}>
         <li className='category-item' ><a href="">Torres de Iluminação</a></li>
@@ -91,17 +91,17 @@ export default function Geradores() {
 <div className="produtos">
 
   <div className="linegera">
-    <div className="divprod49">
+    {/* <div className="divprod49">
         <img src={prod49} alt="" />
         <button>Grupo Gerador 12,5 KVA</button>
-    </div>
+    </div> */}
     <div className="divprod50">
         <img src={prod50} alt="" />
         <button>Gerador 6 – 20 KVA</button>
     </div>
     <div className="divprod51">
         <img src={prod51} alt="" />
-        <button>Gerador 100 – 500 KVA</button>
+        <button>Gerador 100 – 550 KVA</button>
     </div>
   </div>
 

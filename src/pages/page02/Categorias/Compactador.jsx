@@ -14,6 +14,7 @@ import prod17 from './img/prod17.png'
 import prod18 from './img/prod18.jpg'
 import prod19 from './img/prod19.jpg'
 import prod20 from './img/prod20.jpeg'
+import prod70 from './img/prod70.jpg'
 
 
 export default function Caminhao() {
@@ -39,7 +40,7 @@ export default function Caminhao() {
       <h1>Categorias</h1>
     <ul className='categorias-list'>
     <Link to={'/Equipamentos'}>
-        <li className='category-item' ><a href="">Andaimes</a></li>
+        <li className='category-item' ><a href="">Ferragens</a></li>
     </Link>
     <Link to={'/Betoneiras'}>
         <li className='category-item' ><a href="">Betoneiras</a></li>
@@ -72,13 +73,13 @@ export default function Caminhao() {
         <li className='category-item' ><a href="">Máquinas</a></li>
     </Link>
     <Link to={'/Cargas'}>
-        <li className='category-item' ><a href="">Movimentação de Cargas</a></li>
+        <li className='category-item' ><a href="">Elevação de Cargas</a></li>
     </Link>
     <Link to={'/Plataformas'}>
         <li className='category-item' ><a href="">Plataformas Aéreas</a></li>
     </Link>
     <Link to={'/Terraplanagem'}>
-        <li className='category-item' ><a href="">Terraplanagem</a></li>
+        <li className='category-item' ><a href="">Linha Amarela</a></li>
     </Link>
     <Link to={'/Torre'}>
         <li className='category-item' ><a href="">Torres de Iluminação</a></li>
@@ -107,10 +108,18 @@ export default function Caminhao() {
         <button> CM20 Diesel</button>
     </div>
   </div>
-     <div className="divprod20">
+  <div className="line4">
+  <div className="divprod20">
         <img src={prod20} alt="" />
         <button>Compactador Percussão</button>
     </div>
+     <div className="divprod69">
+        <img src={prod70} alt="" />
+        <button>Rolo Pé de Carneiro</button>
+    </div>
+  </div>
+     
+
 </div>
 </div>
 

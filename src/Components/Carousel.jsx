@@ -22,26 +22,32 @@ export default function Carousell() {
     <>
       <Carousel ref={carouselRef} className='carousel'>
         <div className='carousel-1'>
-          <img className='img1' src={cimg1} alt="" />
+          <img className='img1' src={img14} alt="" />
           <div className="caption-1">
-            <h2>Equipe Especializada</h2>
-            <button><a href="https://linktr.ee/mktrede">Saiba Mais</a></button>
+            <h2>Equipamentos de Ponta</h2>
+            <a href="https://linktr.ee/mktrede">
+            <button className='cb1'>Saiba Mais</button>
+            </a>
           </div>
         </div>
 
         <div className='carousel-2'>
-          <img className='img2' src={img14} alt="" />
+          <img className='img2' src={cimg1} alt="" />
           <div className="caption-2">
-            <h2>Equipamentos de Ponta</h2>
-            <button><a href="https://linktr.ee/mktrede">Saiba Mais</a></button>
+          <h2>Solicite seu Orçamento</h2>
+            <a href="https://linktr.ee/mktrede">
+            <button className='cb1'>Saiba Mais</button>
+            </a>
           </div>
         </div>
 
         <div className='carousel-3'>
           <img className='img3' src={cimg3} alt="" />
-          <div className="caption-3 cp3">
-            <h1 className='cph1'>Transporte de Equipamento</h1>
-            <button><a href="https://linktr.ee/mktrede">Saiba Mais</a></button>
+          <div className="caption-3">
+            <h1 className=''>Maior Mix de Produtos</h1>
+            <a href="https://linktr.ee/mktrede">
+            <button className='cb1'>Saiba Mais</button>
+            </a>
           </div>
         </div>
       </Carousel>

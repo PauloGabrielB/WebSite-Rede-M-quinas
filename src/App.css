@@ -21,11 +21,14 @@
 
 /* Carousel */
 
+
+
 button a {
     text-decoration: none;
     color: #fff;
     font-family: Poppins;
     font-weight: bold;
+    font-size: 25px;
 }
 
 .carousel {
@@ -120,7 +123,7 @@ button a {
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: #D41E25;
+    background: #ffffff;
     color: #fff;
     margin-top: 20px;
     font-family: Poppins;
@@ -203,7 +206,7 @@ button a {
 }
 .cap-1 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     margin-left: 680px;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -220,26 +223,26 @@ button a {
     font-family: Poppins;
     font-weight: bold;
     margin-top: 50px;
-    font-size: 60px;
-    margin-left: -70px;
+    font-size: 50px;
     text-shadow: 0 0 8px black;
+    margin-left: 20px;
 }
 
 .cap-1 button {
-    width: 300px;
+    width: 200px;
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: #D41E25;
+    background: #db070e;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 0px;
     font-family: Poppins;
     font-weight: 600;
-    margin-left: 10px;
+    margin-left: 35px;
 }
 .cap-2 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     margin-left: 680px;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -255,27 +258,27 @@ button a {
 .cap-2 h2 {
     font-family: Poppins;
     font-weight: bold;
-    margin-top: 50px;
-    font-size: 60px;
-    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 50px;
     text-shadow: 0 0 8px black;
+    margin-left: 30px;
 }
 
 .cap-2 button {
-    width: 300px;
+    width: 200px;
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: #D41E25;
+    background: #db070e;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 0px;
     font-family: Poppins;
     font-weight: 600;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .cap-3 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     margin-left: 680px;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -291,23 +294,23 @@ button a {
 .cap-3 h1 {
     font-family: Poppins;
     font-weight: bold;
-    margin-top: 50px;
-    font-size: 60px;
-    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 50px;
     text-shadow: 0 0 8px black;
+    margin-left: 30px;
 }
 
 .cap-3 button {
-    width: 300px;
+    width: 200px;
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: #D41E25;
+    background: #db070e;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 0px;
     font-family: Poppins;
     font-weight: 600;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 /* CardSlider */
@@ -700,24 +703,22 @@ button a {
     }
     .cap-1 h2 {
         font-family: Poppins;
-        font-size: 20px;
+        font-size: 22px;
         color: #fff;
-        margin-top: 10px;
-        margin-left: -60px;
-        margin-bottom: 40px;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-bottom: 15px;
     }
     .cap-1 button {
-        width: 120px;
+        width: 150px;
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: #D41E25;
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
         font-weight: 600;
-        margin-top: 10px;
-        margin-left: 15px;
+        margin-left: 42%;
     }
     .cap-2 {
         position: absolute;
@@ -732,24 +733,22 @@ button a {
     }
     .cap-2 h2 {
         font-family: Poppins;
-        font-size: 18px;
+        font-size: 22px;
         color: #fff;
-        margin-top: 20px;
-        margin-left: 10px;
-        margin-bottom: 40px;
+        margin-top: 0px;
+        margin-left: 12px;
+        margin-bottom: 15px;
     }
     .cap-2 button {
-        width: 120px;
+        width: 150px;
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: #D41E25;
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
         font-weight: 600;
-        margin-top: -30px;
-        margin-left: 10px;
+        margin-left: 42%;
     }
     .cap-3 {
         position: absolute;
@@ -764,24 +763,22 @@ button a {
     }
     .cap-3 h1 {
         font-family: Poppins;
-        font-size: 22px;
+        font-size: 18px;
         color: #fff;
-        margin-top: 20px;
-        margin-left: 10px;
-        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 15px;
+        margin-bottom: 15px;
     }
     .cap-3 button {
-        width: 120px;
+        width: 150px;
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: #D41E25;
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
         font-weight: 600;
-        margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 42%;
     }
 
     /* ========================================================== */
@@ -821,6 +818,9 @@ button a {
 
 .nav-icons {
     margin-left: 200px;
+}
+.imgcircular {
+    transform: scale(1.2);
 }
 
 .nav-icons i {
@@ -1270,7 +1270,7 @@ a {
 }
 
 .fp2 {
-    margin-left: 70px;
+    margin-left: 30px;
     text-decoration: none;
 }
 
@@ -1297,6 +1297,7 @@ a {
 
 .fp3-title {
     margin-bottom: 20px;
+    margin-left: -32px;
 }
 
 .fp3 h1 {
@@ -1318,10 +1319,14 @@ a {
 
 .local {
     display: flex;
-    flex-direction: column;
-    transform: scale(0.85);
-    margin-top: -20px;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: scale(1.1);
+    margin-top: 30px;
     margin-left: -15px;
+}
+.local2 {
+    margin-left: 10px;
 }
 
 .local a {
@@ -1513,10 +1518,11 @@ a {
 }
 
 .fp1 p {
-    width: 80%;
+    width: 100%;
     margin-top: 20px;
     font-weight: bold;
     margin-left: 40px;
+    font-size: 18px;
 }
 
 .fp2 {
@@ -1536,6 +1542,9 @@ a {
     height: 70px;
     margin-top: 0px;
     display: block;
+}
+.fp3-title {
+    margin-left: -2px;
 }
 
 .fp4 {
@@ -1570,7 +1579,12 @@ a {
     margin-right: 10px;
 }
 .local {
-    margin-left: -32px;
+    margin-left: 20px;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.local2 {
+    margin-left: 0;
 }
 .local h1 {
     font-size: 12px;
@@ -1607,11 +1621,10 @@ a {
 .box-section h1 {
     font-family: Poppins;
     font-weight: bold;
-    font-size: 18px;
-    width: 900px;
+    font-size: 22px;
     margin-top: 20px;
-    margin-left: 80px;
     color: black;
+    text-align: center;
 }
 
 .box-container {
@@ -1640,7 +1653,9 @@ a {
 }
 .iif2 {
     transform: scale(1.5);
-    padding-left: 5px;
+    padding-left: 2px;
+    padding-top: 2px;
+    
 }
 @media screen and (max-width: 730px) {
 

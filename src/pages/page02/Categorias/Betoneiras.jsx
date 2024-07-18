@@ -35,7 +35,7 @@ export default function Betoneira() {
         <h1>Categorias</h1>
         <ul className='categorias-list'>
         <Link to={'/Equipamentos'}>
-            <li className='category-item' ><a href="">Andaimes</a></li>
+            <li className='category-item' ><a href="">Ferragens</a></li>
         </Link>
         <Link to={'/Betoneiras'}>
             <li className='category-item' ><a href="">Betoneiras</a></li>
@@ -68,13 +68,13 @@ export default function Betoneira() {
             <li className='category-item' ><a href="">Máquinas</a></li>
         </Link>
         <Link to={'/Cargas'}>
-            <li className='category-item' ><a href="">Movimentação de Cargas</a></li>
+            <li className='category-item' ><a href="">Elevação de Cargas</a></li>
         </Link>
         <Link to={'/Plataformas'}>
             <li className='category-item' ><a href="">Plataformas Aéreas</a></li>
         </Link>
         <Link to={'/Terraplanagem'}>
-            <li className='category-item' ><a href="">Terraplanagem</a></li>
+            <li className='category-item' ><a href="">Linha Amarela</a></li>
         </Link>
         <Link to={'/Torre'}>
             <li className='category-item' ><a href="">Torres de Iluminação</a></li>
@@ -86,29 +86,30 @@ export default function Betoneira() {
     </div>
     <div className="produtos">
     <div className="line2">
-        <div className="divprod10">
+        {/* <div className="divprod10">
             <img src={prod10} alt="" />
             <button>Betoneira Proffisional</button>
-        </div>
+        </div> */}
         <div className="divprod11">
             <img src={prod11} alt="" />
             <button>Betoneira 400 lts Diesel</button>
         </div>
-        <div className="divprod12">
+        {/* <div className="divprod12">
             <img src={prod12} alt="" />
             <button>Bet. 600L Hidráulica</button>
-        </div>
+        </div> */}
         <div className="divprod13">
             <img src={prod13} alt="" />
             <button>Betoneira 600 lts</button>
         </div>            
-    </div>
-
-    <div className="line2">
-    <div className="divprod14">
+        <div className="divprod14">
             <img src={prod14} alt="" />
             <button>Betoneira Proffisional</button>
         </div>    
+    </div>
+
+    <div className="line2">
+    
     </div>
     
     </div>

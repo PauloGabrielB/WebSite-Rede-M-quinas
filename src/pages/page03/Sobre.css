@@ -1,92 +1,110 @@
 .tion-1 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     margin-left: 680px;
     transform: translate(-50%, -50%);
-    text-align: start;
+    text-align: center;
     color: white; /* cor do texto */
     width: 1200px;
     height: 400px;
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
 }
 
 .tion-1 h2 {
     font-family: Poppins;
     font-weight: bold;
-    font-size: 60px;
-    margin-top: 100px;
+    margin-top: 35px;
+    font-size: 50px;
+    text-shadow: 0 0 8px black;
+    margin-left: 20px;
 }
 
 .tion-1 button {
-    width: 300px;
+    width: 200px;
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: rgb(211, 2, 2);
+    background: #db070e;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 0px;
     font-family: Poppins;
     font-weight: 600;
+    margin-left: 35px;
 }
 .tion-2 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     margin-left: 680px;
     transform: translate(-50%, -50%);
-    text-align: start;
+    text-align: center;
     color: white; /* cor do texto */
     width: 1200px;
     height: 400px;
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
 }
 
 .tion-2 h2 {
     font-family: Poppins;
     font-weight: bold;
-    font-size: 60px;
-    margin-top: 100px;
+    margin-top: 30px;
+    font-size: 50px;
+    text-shadow: 0 0 8px black;
+    margin-left: 10px;
 }
 
 .tion-2 button {
-    width: 300px;
+    width: 200px;
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: rgb(211, 2, 2);
+    background: #db070e;
     color: #fff;
-    margin-top: 40px;
+    margin-top: 0px;
     font-family: Poppins;
     font-weight: 600;
+    margin-left: 30px;
 }
 .tion-3 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     margin-left: 680px;
     transform: translate(-50%, -50%);
-    text-align: start;
+    text-align: center;
     color: white; /* cor do texto */
     width: 1200px;
     height: 400px;
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
 }
 
 .tion-3 h2 {
     font-family: Poppins;
     font-weight: bold;
-    font-size: 60px;
-    margin-top: 100px;
+    margin-top: 0px;
+    font-size: 50px;
+    text-shadow: 0 0 8px black;
+    margin-left: 30px;
 }
 
 .tion-3 button {
-    width: 300px;
+    width: 200px;
     height: 40px;
     border-radius: 10px;
     border: none;
-    background: rgb(211, 2, 2);
+    background: #db070e;
     color: #fff;
-    margin-top: 40px;
+    margin-top: 0px;
     font-family: Poppins;
     font-weight: 600;
+    margin-left: 30px;
 }
 
 .tudo-sobre {
@@ -96,7 +114,7 @@
 
 .sobre {
     width: 100%;
-    height: 2500px;
+    height: 2320px;
     background-image: url('./img//backblack.png');
     background-size: cover;
 }
@@ -121,7 +139,7 @@
 
 .container-sobre p {
     width: 80%;
-    text-align: start;
+    text-align: justify;
     margin-left: 125px;
     padding-top: 50px;
     font-family: Poppins;
@@ -240,12 +258,15 @@
     font-family: Poppins;
     margin-left: -500px;
     width: 700px;
-    text-align: end;
+    text-align: justify;
     font-size: 21px;
     font-weight: 600;
     color: #fff;
 }
 
+.p p {
+    margin-top: 55px;
+}
 /* ===================== RESPONSIVO ==================== */
 
 @media  screen and (max-width: 730px) {
@@ -255,7 +276,7 @@
     }
     
     .sobre {
-        height: 2900px;
+        height: 2700px;
     }
     .sobre h1 {
         margin-top: 60px;
@@ -314,7 +335,7 @@
         width: 300px;
         height: 400px;
         background: rgba(0, 0, 0, 0.733);
-        margin-left: -130px;
+        margin-left: -100px;
         margin-top: 100px;
         font-size: 13px;
         color: #fff;
@@ -326,10 +347,11 @@
     .p p {
         font-size: 12px;
         width: 250px;
-        margin-left: 10px;
+        margin-left: 25px;
         margin-top: 20px;
         z-index: 2;
         position: absolute;
+        text-align: justify;
     }
     .container-mapa {
         margin-top: 100px;
@@ -340,100 +362,97 @@
         width: 40%;
         margin-left: 160px;
     }
+    .mapa img {
+        margin-left: 400px;
+    }
     .tion-1 {
         position: absolute;
         top: 50%;
-        margin-left: 10.2%;
+        margin-left: 7.4%;
         transform: translate(-50%, -50%);
-        text-align: start;
+        text-align: center;
         color: white; /* cor do texto */
-        margin-top: 50px;
+        margin-top: 20px;
         width: 300px;
         height: 140px;
     }
     .tion-1 h2 {
         font-family: Poppins;
-        font-size: 18px;
+        font-size: 22px;
         color: #fff;
-        margin-top: 10px;
-        margin-left: -60px;
-        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-bottom: 15px;
     }
     .tion-1 button {
-        width: 120px;
+        width: 150px;
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: rgb(211, 2, 2);
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
         font-weight: 600;
-        margin-top: 10px;
-        margin-left: -60px;
+        margin-left: 42%;
     }
     .tion-2 {
         position: absolute;
         top: 50%;
-        margin-left: 10.2%;
+        margin-left: 7.4%;
         transform: translate(-50%, -50%);
-        text-align: start;
+        text-align: center;
         color: white; /* cor do texto */
-        margin-top: 50px;
+        margin-top: 20px;
         width: 300px;
         height: 140px;
     }
     .tion-2 h2 {
         font-family: Poppins;
-        font-size: 20px;
+        font-size: 22px;
         color: #fff;
-        margin-top: 10px;
-        margin-left: -60px;
-        margin-bottom: -20px;
+        margin-top: 0px;
+        margin-left: 12px;
+        margin-bottom: 15px;
     }
     .tion-2 button {
-        width: 120px;
+        width: 150px;
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: rgb(211, 2, 2);
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
         font-weight: 600;
-        margin-top: 10px;
-        margin-left: -60px;
+        margin-left: 42%;
     }
     .tion-3 {
         position: absolute;
         top: 50%;
-        margin-left: 10.2%;
+        margin-left: 7.4%;
         transform: translate(-50%, -50%);
-        text-align: start;
+        text-align: center;
         color: white; /* cor do texto */
-        margin-top: 50px;
+        margin-top: 20px;
         width: 300px;
         height: 140px;
     }
-    .tion-3 h2 {
+    .tion-3 h1 {
         font-family: Poppins;
-        font-size: 20px;
+        font-size: 19px;
         color: #fff;
-        margin-top: 10px;
-        margin-left: -60px;
-        margin-bottom: -20px;
+        margin-top: -30px;
+        margin-left: 5px;
+        margin-bottom: 15px;
     }
     .tion-3 button {
-        width: 120px;
+        width: 150px;
         height: 40px;
         border-radius: 10px;
         border: none;
-        background: rgb(211, 2, 2);
         color: #fff;
         font-size: 17px;
         font-family: Poppins;
         font-weight: 600;
-        margin-top: 10px;
-        margin-left: -60px;
+        margin-left: 42%;
     }
 }
